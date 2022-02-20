@@ -3,8 +3,8 @@
       <nav role="navigation">
 
 <ul>
+   <li style="font-weight: 600">Brian Dell</li> 
    {% for item in site.data.navigation.links %}
-      <li style="font-weight: 600">Brian Dell</li> 
       <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
 </ul>
