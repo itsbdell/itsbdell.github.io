@@ -1,17 +1,17 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: briandell.xyz
+url: briandell.xyz
+title: Brian Dell
+description: 
 twitter:
-  username: #yourusername
+  username: itsbdell 
   card: summary
-  creator: #yourusername
+  creator: itsbdell
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: itsbdell
+  name: itsbdell
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: dell.brian@gmail.com
+  url: briandell.xyz
 permalink: pretty
 
 baseurl: ""
