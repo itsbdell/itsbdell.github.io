@@ -1,9 +1,8 @@
 links:
-- title: Writing
-  url: /
+- title: Brian Dell
+- title: Blog
+  url: /blog
 - title: About
   url: /about
-- title: Search
-  url: /search
 - title: Rss
   url: /atom.xml
