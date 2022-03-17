@@ -5,7 +5,7 @@ layout: default
 <section class="posts">
 <ul>
 {% for post in site.posts %}
-{% if post.type="note" %} 
+{% if post.type == "note" %} 
 
 <li class="black-50"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
 
@@ -20,4 +20,5 @@ layout: default
 {% endfor %}
 </ul>
 </section>
+
 
