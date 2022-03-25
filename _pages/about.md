@@ -15,5 +15,5 @@ I try to memorize a poem each week, go for runs, and write about organizational 
 
 If you'd like to meet, I'd probably like to meet you. Feel free to get in touch!
 
-* **<mark style="background-color: #c0ffc8;">Email:</mark>** [dell.brian@gmail.com ](mailto:dell.brian@gmail.com)
-* **<mark style="background-color: #c0ffc8;">Twitter:</mark>:** [@itsbdell](https://twitter.com/itsbdell)
+* **<mark style="background-color: #98FF8F;">Email:</mark>** **[dell.brian@gmail.com ](mailto:dell.brian@gmail.com)**
+* **<mark style="background-color: #98FF8F;">Twitter:</mark>:** **[@itsbdell](https://twitter.com/itsbdell)**
