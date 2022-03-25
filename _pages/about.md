@@ -2,7 +2,7 @@
 layout: page
 title: About me
 ---
-<img src="/images/8bit_pring.png" alt="8bit Brian" width="200"/>
+<img src="/images/8bit_brian.png" alt="8bit Brian" width="200"/>
 
 Hi, I'm Brian. 
 
