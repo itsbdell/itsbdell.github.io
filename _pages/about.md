@@ -14,7 +14,7 @@ I help big companies grapple with the future, and startups grapple with the pres
 
 I try to memorize a poem each week, go for runs, and write about organizational change stuff at [Little Futures](https://littlefutures.substack.com/).  
 
-I like this [idea of research(https://sterneworks.org/)] and strategy: 
+I like this [idea of research](https://sterneworks.org/) and strategy: 
 > “serious research leads one to unite what is ordinarily separated or to distinguish what is ordinarily confused.”
 
 If you'd like to meet, I'd probably like to meet you. Feel free to get in touch!
