@@ -169,7 +169,7 @@ strong, b {
 main {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:55rem;
+	max-width:50rem;
 	margin:2rem auto;
 	padding:1rem;
 }
