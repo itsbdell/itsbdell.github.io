@@ -4,7 +4,7 @@ title: Links - Wednesday, June 29, 2022
 type: note
 ---
 
-![](images/Brooklyn_Bridge_Maze_of_Ingenuity.jpeg)
+![](images/Brooklyn_Bridge_Maze_of_Ingenuity.jpg)
 
 1. [The Maze of Ingenuity: Ideas and Idealism in the Development of Technology](https://mitpress.mit.edu/books/maze-ingenuity-second-edition)
 
