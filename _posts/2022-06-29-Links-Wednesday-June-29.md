@@ -12,7 +12,7 @@ type: note
 
 3. [Future Scarcity](https://kk.org/thetechnium/future-scarcities/)
 
-4. [You can’t tackle complex systems with linear thinking] (https://www.ritamcgrath.com/sparks/2022/06/you-cant-tackle-complex-systems-with-linear-thinking/)
+4. [You can’t tackle complex systems with linear thinking](https://www.ritamcgrath.com/sparks/2022/06/you-cant-tackle-complex-systems-with-linear-thinking/)
 
 5. [Blockchains: A promise Enforcement Engine](http://marginalrevolution.com/marginalrevolution/2022/06/blockchains-a-promise-enforcement-engine.html?utm_source=feedly&utm_medium=rss&utm_campaign=blockchains-a-promise-enforcement-engine)
 
