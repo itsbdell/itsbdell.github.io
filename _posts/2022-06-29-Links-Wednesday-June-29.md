@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Links - Wednesday, June 29, 2022
+type: note
 ---
 
 ![](images/Brooklyn_Bridge_Maze_of_Ingenuity.jpeg)
