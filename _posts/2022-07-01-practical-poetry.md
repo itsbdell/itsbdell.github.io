@@ -1,8 +1,7 @@
 ---
 layout: post
-title: practical poetry
+title: Practical Poetry
 type: note
-tags: poetry, articulation
 --- 
 
 From an [interview with the psychoanalyst and writer Adam Phillips](https://www.economist.com/prospero/2012/03/29/poetry-as-therapy).
@@ -17,5 +16,3 @@ From an [interview with the psychoanalyst and writer Adam Phillips](https://www.
 > 
 > It is as though Freud invented a setting or a treatment in which people could not exactly speak the poetry that they are, but that they could articulate themselves as fully as they are able. A session lasts 50 minutes, and it's always at the same time each week, just like a sonnet is always 14 lines. It's a similar thing. The form makes possible the articulation.
 
-Incisiveness and ambiguity. 
-The form makes possible the articulation.
