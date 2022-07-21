@@ -48,7 +48,7 @@ collections:
     output: true
     permalink: /learning/:name
   media:
-    output: true
+    output:
     permalink: /media
   
 defaults:
