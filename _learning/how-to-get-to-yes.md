@@ -1,0 +1,130 @@
+---
+layout:
+title: Getting a YES - How to Prep, Pitch, Persuade, and Close | Tom Goodwin | Skillshare
+type:
+---
+
+- Intro
+    - What is a pitch? 
+        - Any form of content or communication you produce to create a favorable outcome. 
+        - Sometimes they are big leaps, sometimes they are small. Sometimes it's just more information. 
+- Why is this relevant? 
+    - Everyone is always pitching. 
+    - You need to know what the person needs to hear to bring about the right outcome. 
+    - People are inundated with pitches. 
+    - Your pitch needs to be clear, be concise, needs to be quick. 
+- Step one: Research #Strategy
+    - What are you actually trying to accomplish? 
+        - For most people it will be to understand the specific person you need to speak to, what precisely it is you want them to do for you, and to know exactly what it is to say to them to bring about an outcome. 
+        - Every sales process starts with the end in mind. 
+    - Do general research
+        - category
+        - company
+        - people 
+        - process
+        - structures
+        - mission statements
+        - Observe as much information as possible to get a clear picture on the environment this company and person operates in. 
+        - Get a grip on the personalities behind the scenes.
+            - Find out more about the person behind the role. 
+    - Dive deeper with informational interviews
+        - Host informational interviews
+        - Meet with people
+        - To secure some interviews you're going to need to know some stuff
+        - Primary research is meant to give enough context to undertake secondary research. 
+        - Know what you are trying to get from people. 
+        - Build up enough research and data to boil it down to key insights. 
+    - Organize your key insights
+        - What is an insight? A piece of knowledge or information that unlocks key opportunities. 
+        - Find key nuggets of info that bring about an Ahha! moment.
+    - You're done when you know key facts
+        - Who is the key decision maker to contact? 
+        - What is their primary motivation? 
+        - Understand what environment they are working in
+            - how they make decisions
+                - quickly? 
+                - avoid risk? 
+                - reward success? 
+                - etc.
+    - Moving on to outreach
+        - At some point research starts to blend in to an outreach phase. 
+- Step two: Outreach
+    - Creating your contact strategy
+        - Who do you need to speak to first? 
+        - What do you need to get from them? 
+        - How's the best way to get in touch with them? 
+    - Start with a strong first line
+        - Get their attention
+        - Show that you understand their needs and drivers
+    - Create a deliberate structure
+    - Craft a headline that grabs attention
+    - Highlight how you will be useful to your contact in the first sentence
+    - Fill in further information after highlighting your value
+    - Remember: It's not about you
+    - Stay clear and concise
+        - In the past it seemed rude to be abrupt. 
+        - Now concise is being polite. 
+    - Be specific. Avoid vagueness. 
+        - Say: I have a product, and I need you to buy it. 
+        - Be specific, honest, and transparent. 
+    - Don't mass email
+    - Show your humanity
+    - Don't be artificially friendly
+    - Formatting your email
+        - Clarity. Ease. Consider a video. 
+    - Timing your outreach
+        - Know from research what the right times will be to reach people
+        - Consider specific times of year that might be more hectic for your contact
+    - Be aware of the monthly and weekly cadence of the industry you're researching. 
+    - Email vs Phone
+        - Phone not really working anymore. 
+    - Remember a successful pitch is a series of events. 
+    - Two examples: good & bad
+        - Bad: 
+            - Not addressing him by name
+            - Being overly friendly, asking questions early. 
+            - etc.
+        - Good: 
+            - Hi Tom. 
+            - Hope you're good. 
+            - I read your piece recently in TKTKTK about TKTKTK. It struck a chord with me as I've been working on a solution, it's not been easy but I think we're ready to take it to the world. From my research I gather it's your role to help companies like Kohl's and Chase with their advertising investments and to show a clear ROI, so I think this solution may be interesting to you. 
+            - In short we've developed a way to use social media metrics like "likes" and "shares" to benchmark campaigns against each other. It's a solution that's not been done before, but I sense you like that. I've added a 60 second video below to watch. If you are interested in finding out more, let's set up a quick call to go over some examples of how this can work for your clients. If this isn't for you, let me know and sorry to take up your time. 
+            - Thanks,
+- Step three: Face-to-face or first phone call
+    - Take different forms:
+        - Interviews
+        - Sales Pitch
+        - PR meeting
+        - Networking
+    - They take on different shapes and forms. 
+    - Conducting a successful meeting
+        - Time & place should favor the buyer
+        - Plan for unknown set-ups
+        - Mitigate technology issues
+        - Kick off the meeting right
+            - how do you introduce yourselves
+            - how familiar should you be together
+        - Consider the meeting timing (breakfast etc.)
+        - Consider meeting timing
+        - Get a feel for the room (number of people etc.)
+        - Plan your presentation style
+        - Give out information at the end
+        - Stay flexible - don't be afraid to cut a meeting short, or afraid to learn more
+        - End the meeting with clear next steps
+            - A successful meeting should have a followup note that outlines precisely what needs to happen next, and next steps which are understood and agreed to by everybody
+- Step four: Following up
+    - Tips for following up
+        - Write a thank you note day after or day off the meeting
+            - Clear, concise, extremely brief.
+            - Thank them for their time, follow up with concrete next steps. 
+            - Keep tone professional & polite
+        - Use these emails to establish new contacts
+        - Each and every followup should add new information to the engagement
+        - Make it easy to reply. Give options.
+    - Dealing with No Replies
+    - Managing rejection
+        - Understand what a real objection or a false objection is. 
+    - Deciding to move on
+    - Create an alternate next step
+- Final thoughts
+    - Make your mistakes with people who matter less
