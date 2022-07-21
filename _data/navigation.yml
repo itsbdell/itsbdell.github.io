@@ -4,5 +4,9 @@ links:
   url: /
 - title: About
   url: /about
+- title: Learning
+  url: /learning
+- title: Media
+  url: /media
 - title: Rss
   url: /atom.xml
