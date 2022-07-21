@@ -44,7 +44,12 @@ collections:
   projects: 
     output: true
     permalink: /projects/:name
-    
+  learning:
+    output: true
+    permalink: /learning/:name
+  media:
+    output: true
+    permalink: /media
   
 defaults:
   -
