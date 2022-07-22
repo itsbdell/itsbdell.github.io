@@ -20,7 +20,7 @@ nav ul {
 }
 
 a {
-    color: rgba(0, 0, 0, 0.333);
+    color: #000;
     text-decoration-skip-ink: auto;
     text-decoration: underline;
 }
