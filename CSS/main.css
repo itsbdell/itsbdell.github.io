@@ -82,6 +82,7 @@ header {
 
 header a {
 	text-decoration: none;
+	color: #222;
 }
 
 header li {
@@ -139,6 +140,7 @@ strong, b {
 	display:flex;
 	justify-content:space-between;
 	margin-bottom: .5rem;
+	color: #222;
 }
 
 .posts li a, .posts li div, .projects li a {
@@ -146,12 +148,14 @@ strong, b {
 	overflow:hidden;
 	text-overflow:ellipsis;
 	text-decoration: none;
+	color: #222;
 }
 
 .posts li time, .projects li time {
 	padding-left: 1rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
+	color: #222;
 }
 
 
@@ -162,7 +166,7 @@ strong, b {
 main {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:55rem;
+	max-width:50rem;
 	margin:2rem auto;
 	padding:1rem;
 }
