@@ -47,9 +47,10 @@ collections:
   learning:
     output: true
     permalink: /learning/:name
-  media:
-    output:
-    permalink: /media
+  collections: 
+    output: true
+    permalink: /collections/:name
+    
   
 defaults:
   -

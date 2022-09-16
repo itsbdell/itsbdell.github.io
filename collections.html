@@ -1,0 +1,14 @@
+---
+layout: default
+title: Collections
+---
+
+{% for themes in site.collections %}
+
+<a href="{{ collections.url | prepend: site.baseurl }}">
+  <h2>{{ collections.title }}</h2>
+</a>
+
+<p class="post-excerpt">{{ collections.description }}</p>
+
+{% endfor %}  
