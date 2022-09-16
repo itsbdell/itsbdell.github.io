@@ -41,15 +41,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  projects: 
+  resources: 
     output: true
-    permalink: /projects/:name
-  learning:
-    output: true
-    permalink: /learning/:name
-  collections: 
-    output: true
-    permalink: /collections/:name
+    permalink: /resources/:name
     
   
 defaults:
