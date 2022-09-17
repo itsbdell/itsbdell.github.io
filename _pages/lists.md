@@ -5,10 +5,8 @@ title: Lists
 
 {% for lists in site.lists %}
 
-<a href="{{ list.url }}">
-  <h4>{{ list.title }}</h4>
-</a>
+<h4><a href="{{ lists.url }}">{{ lists.title }}</a></h4>
 
-<p class="post-excerpt">{{ list.description }}</p>
+<p class="post-excerpt">{{ lists.description }}</p>
 
 {% endfor %}  
