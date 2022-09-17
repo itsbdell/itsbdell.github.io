@@ -1,5 +1,5 @@
 ---
 title: Running
 layout: page
-description:
+description: this is a page about running
 ---
