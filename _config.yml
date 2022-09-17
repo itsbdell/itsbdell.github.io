@@ -43,7 +43,7 @@ collections:
     permalink: /:year/:month/:day/:slug
   lists: 
     output: true
-    permalink: /:name
+    permalink: /lists/:name
     
   
 defaults:
