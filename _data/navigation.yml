@@ -3,7 +3,5 @@ links:
   url: /
 - title: About
   url: /about
-- title: Lists
-  url: /lists
 - title: RSS
   url: /atom.xml
