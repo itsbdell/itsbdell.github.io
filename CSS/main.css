@@ -165,7 +165,7 @@ strong, b {
 main {
 	display:flex;
 	flex-wrap:wrap;
-	max-width:50rem;
+	max-width:45rem;
 	margin:2rem auto;
 	padding:1rem;
 }
