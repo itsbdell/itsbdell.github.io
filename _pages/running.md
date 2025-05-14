@@ -809,6 +809,6 @@ What worked:
 
 Something happened after my 11 mile run on Saturday. My right ankle began clicking a bit. Then I went on an (ill-advised) hike up about a half mile of steeps gravel roadway. Then I did an (ill-advised) runners yoga in the morning. Now, I having a lot of trouble putting any weight on my ankle, it's movement is limited, it's stiff - but doesn't seem to be too swollen, and my heel is quite sore.
 
-I have bum ankles. A slight curve in the way my heels land has left me with a rc
+I have bum ankles.
 
 ### Recent
