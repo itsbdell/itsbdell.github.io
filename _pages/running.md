@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Running Log
+title: Running
 ---
 
 <!--Color codes: Todo - use <mark>; Principles - use <span style="background-co\lor: #ffdab2"> Daily photos - <img src="filename" alt="" style="zoom:50%;" />-->
