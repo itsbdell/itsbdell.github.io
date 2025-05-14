@@ -164,7 +164,7 @@ Unclear on how a "pace run" works. Run felt fine. I could've run faster. Perform
 
 #### Thursday, May 21, 2020
 
-<img src="/images/_Thursday_5.21.20_Run.png" alt="" style="zoom:10%;" />
+<img src="/images/Thursday_5.21.20_Run.png" alt="" style="zoom:10%;" />
 
 Awake. Beautiful day. Achilles tight and sensitive. Body creaks. I begin making small wagers with myself on which part breaks first.
 
@@ -182,7 +182,7 @@ Ordered a pair of [Hoka's](https://www.hokaoneone.com/) on the recommendation of
 
 #### Friday, May 22, 2020
 
-<img src="/images/_GB_5.22.20.png" alt="" style="zoom:10%;" />
+<img src="/images/GB_5.22.20.png" alt="" style="zoom:10%;" />
 
 > Run: Rest day.
 
@@ -192,7 +192,7 @@ Woke in the Berkshires. HIIT workout. Slight tinge in my heel. House hunting. To
 
 #### Saturday, May 23, 2020
 
-<img src="/images/_Run_5.23.20.png" style="zoom:10%;" />
+<img src="/images/Run_5.23.20.png" style="zoom:10%;" />
 
 > Run: 5 mile long run.  
 > Pace: 8.53/mi.  
@@ -252,7 +252,7 @@ I'm going to update my gear a bit, and add some diligence to holding my body tog
 
 #### Tuesday, May 26, 2020
 
-<img src="/images/_Tuesday_5.26.20_Run.png" style="zoom:10%;" />
+<img src="/images/Tuesday_5.26.20_Run.png" style="zoom:10%;" />
 
 > Run: 3.29 miles.  
 > Pace: 8:38  
@@ -272,7 +272,7 @@ _Update:_ <span style="background-color: #ffdab2">The Buddy Arc: Will I show up?
 
 #### Wednesday, May 27, 2020
 
-<img src="/images/_Run_5.27.20.png" style="zoom:10%;" />
+<img src="/images/Run_5.27.20.png" style="zoom:10%;" />
 
 > Run: 4.02 miles.  
 > Pace: 8:36  
@@ -300,7 +300,7 @@ Right now, running feels like I'm getting bigger and the runs are getting smalle
 
 #### Thursday, May 28, 2020
 
-<img src="/images/_Run_5.28.20_Newton.png" style="zoom:15%;" />
+<img src="/images/Run_5.28.20_Newton.png" style="zoom:15%;" />
 
 > Run: 3.01 miles.  
 > Pace: 8:19/mi.  
@@ -326,7 +326,7 @@ Here are a few of the podcasts I've been running with recently:
 
 #### Saturday, May 30, 2020
 
-<img src="/images/_run_5.30.20.jpg" style="zoom:50%;" />
+<img src="/images/run_5.30.20.jpg" style="zoom:50%;" />
 
 > Run: 6 mile long run.  
 > Pace: 9:04/mi
@@ -354,7 +354,7 @@ Legs tired. Knee sore.
 
 #### Tuesday, June 2, 2020
 
-<img src="/images/_run_6.2.20.jpg" style="zoom:50%;" />
+<img src="/images/run_6.2.20.jpg" style="zoom:50%;" />
 
 > Run: 3 miles  
 > Pace: 7:57 / mi.  
@@ -364,7 +364,7 @@ Legs tired. Knee sore.
 
 #### Wednesday, June 3, 2020
 
-<img src="/images/_run_6.3.20.jpg" style="zoom:50%;" />
+<img src="/images/run_6.3.20.jpg" style="zoom:50%;" />
 
 > Run: 4.1 miles.  
 > Pace: 8:37 / mi.  
@@ -374,7 +374,7 @@ Legs tired. Knee sore.
 
 #### Thursday, June 4, 2020
 
-<img src="/images/_run_6.4.20.jpg" style="zoom:50%;" />
+<img src="/images/run_6.4.20.jpg" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 8:09/mi  
@@ -390,7 +390,7 @@ Legs tired. Knee sore.
 
 #### Saturday, June 6, 2020
 
-<img src="/images/_run_6.6.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.6.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 7 miles.  
 > Pace: 9:06/mi.  
@@ -412,7 +412,7 @@ Legs tired. Knee sore.
 
 #### Tuesday, June 9, 2020
 
-<img src="/images/_run_6.9.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.9.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 7:49/mi.
@@ -433,7 +433,7 @@ I think I know what to do with these 3 mile Tuesday & Thursday runs - run them k
 
 #### Wednesday, June 10, 2020
 
-<img src="/images/_run_6.10.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.10.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 4 miles.  
 > Pace: 8:08/mi.  
@@ -443,7 +443,7 @@ I think I know what to do with these 3 mile Tuesday & Thursday runs - run them k
 
 #### Thursday, June 11, 2020
 
-<img src="/images/_run_6.11.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.11.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.13 miles.  
 > Pace: 8:04/mi.  
@@ -467,7 +467,7 @@ I put some speed intervals into this one.
 
 #### Saturday, June 13, 2020
 
-<img src="/images/_run_6.13.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.13.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 8.01 miles.  
 > Pace: 8:37/mi.  
@@ -495,7 +495,7 @@ I've got some catching up to do here.
 
 #### Tuesday, June 16, 2020
 
-<img src="/images/_run_6.16.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.16.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.01 miles.  
 > Pace: 7:35/mi.  
@@ -507,7 +507,7 @@ Fastest 2 mile time (15:00). Last week I ran my fastest 1 mile (7:15) but ended 
 
 #### Wednesday, June 17, 2020
 
-<img src="/images/_run_6.17.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.17.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 4.04 mile pace.
 > Pace: 7:53/mi.
@@ -519,7 +519,7 @@ Missed a turn and got lost. Would've been faster on the back two miles.
 
 #### Thursday, June 18, 2020
 
-<img src="/images/_run_6.18.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.18.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.11 miles.  
 > Pace: 7:48/mi.  
@@ -535,7 +535,7 @@ Missed a turn and got lost. Would've been faster on the back two miles.
 
 #### Saturday, June 20, 2020
 
-<img src="/images/_run_6.20.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.20.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 5K race (kinda)  
 > Pace: 7:33/mi.  
@@ -561,7 +561,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Tuesday, June 23, 2020
 
-<img src="/images/_run_6.23.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.23.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.41 miles.  
 > Pace: 8:08/mi.  
@@ -571,7 +571,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Wednesday, June 24, 2020
 
-<img src="/images/_run_6.24.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.24.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 5.02 miles.  
 > Pace: 8:20/mi.  
@@ -581,7 +581,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Thursday, June 25, 2020
 
-<img src="/images/_run_6.25.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.25.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.11 miles.  
 > Pace: 7:43/mi.  
@@ -597,7 +597,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Saturday, June 27, 2020
 
-<img src="/images/_run_6.27.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.27.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 9 miles.  
 > Pace: 8:58/mi.  
@@ -619,7 +619,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Tuesday, June 30, 2020
 
-<img src="/images/_run_6.30.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_6.30.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 8:07/mi.  
@@ -629,7 +629,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Wednesday, July 1, 2020
 
-<img src="/images/_run_7.1.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.1.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 5 mile pace run.  
 > Pace: 8:37/mi.  
@@ -639,7 +639,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Thursday, July 2, 2020
 
-<img src="/images/_run_7.2.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.2.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.11 miles.  
 > Pace: 7:30/mi.  
@@ -655,7 +655,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Saturday, July 4, 2020
 
-<img src="/images/_run_7.4.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.4.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 10.01 mile long run.  
 > Pace: 8:46/mi.  
@@ -677,7 +677,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Tuesday, July 7, 2020
 
-<img src="/images/_run_7.7.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.7.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 7:39/mi.  
@@ -687,7 +687,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Wednesday, July 8, 2020
 
-<img src="/images/_run_7.8.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.8.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 5.01 miles.  
 > Pace: 8:10/mi.  
@@ -697,7 +697,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Thursday, July 9, 2020
 
-<img src="/images/_run_7.9.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.9.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 8:15/mi.  
@@ -731,7 +731,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Tuesday, July 14, 2020
 
-<img src="/images/_run_7.14.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.14.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3 miles.  
 > Pace: 7:27/mi.
@@ -741,7 +741,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Wednesday, July 15, 2020
 
-<img src="/images/_run_7.15.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.15.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 5.01 miles.  
 > Pace: 8:05/mi.  
@@ -751,7 +751,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Thursday, July 16, 2020
 
-<img src="/images/_run_7.16.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.16.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 3.1 miles (5k).  
 > Pace: 7:30/mi.  
@@ -767,7 +767,7 @@ Next 5k: Pace towards 7:40 | 7:30 | 7:40 | kick.
 
 #### Saturday, July 18, 2020
 
-<img src="/images/_run_7.18.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/run_7.18.20.jpg" alt="" style="zoom:50%;" />
 
 > Run: 11 miles.  
 > Pace: 8:42/mi.  
@@ -802,7 +802,7 @@ What worked:
 
 #### Tuesday, July 21, 2020
 
-<img src="/images/_ankle_7.21.20.jpg" alt="" style="zoom:50%;" />
+<img src="/images/ankle_7.21.20.jpg" alt="" style="zoom:50%;" />
 
 > ~~Run: 3 miles.~~  
 > Rest.
