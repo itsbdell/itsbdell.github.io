@@ -117,12 +117,41 @@ blockquote {
   padding-left: 1rem;
 }
 
-h1,
-h2,
-h3,
-h4,
+h1 {
+  font-size: 2.5em;
+  line-height: 1.15;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-family: "PT Serif", Georgia, serif;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-family: "PT Serif", Georgia, serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-family: "PT Serif", Georgia, serif;
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1.3;
+  margin: 1rem 0;
+  font-weight: 700;
+  font-family: "PT Serif", Georgia, serif;
+}
+
 h5 {
-  line-height: 1;
+  font-size: 1em;
+  line-height: 1.3;
   margin: 1rem 0;
   font-weight: 700;
   font-family: "PT Serif", Georgia, serif;
@@ -190,9 +219,17 @@ header ul {
 main {
   display: flex;
   flex-wrap: wrap;
-  max-width: 600px;
   margin: 2rem auto;
   padding: 1rem;
+}
+
+section {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
 }
 
 @media screen and (max-width: 45rem) {
@@ -214,14 +251,6 @@ main {
   .photos ul {
     margin-top: 0.5rem;
   }
-}
-
-section {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: 70%;
-  display: flex;
-  flex-direction: column;
 }
 
 figcaption {
