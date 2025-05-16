@@ -87,9 +87,9 @@ hr {
 }
 
 header {
-  width: 200px;
-  flex: none;
-  padding: 1rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+  position: relative;
 }
 
 header a {
@@ -218,10 +218,9 @@ header ul {
 
 main {
   display: flex;
-  flex-direction: row;
-  max-width: 100vw;
-  margin: 0 auto;
-  padding: 0;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
 section {
@@ -229,13 +228,10 @@ section {
 }
 
 .post,
-.page,
-.posts {
-  flex: 1;
+.page {
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
 }
