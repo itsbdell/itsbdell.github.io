@@ -224,9 +224,20 @@ main {
 }
 
 section {
+<<<<<<< HEAD
   flex-basis: 0;
   flex-grow: 999;
   min-width: 70%;
+=======
+  padding: 1rem;
+}
+
+.post,
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+>>>>>>> parent of 17147b5 (Update main.css)
   display: flex;
   flex-direction: column;
   max-width: 600px;
