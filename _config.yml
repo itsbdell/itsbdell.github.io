@@ -1,0 +1,66 @@
+site: briandell.xyz
+url: https://briandell.xyz
+title: Brian Dell
+description: 
+twitter:
+  username: itsbdell 
+  card: summary
+  creator: itsbdell
+author:
+  twitter: itsbdell
+  name: itsbdell
+  avatar:
+  email: dell.brian@gmail.com
+  url: briandell.xyz
+permalink: pretty
+
+url: "https://briandell.xyz"
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  lists: 
+    output: true
+    permalink: /lists/:name
+    
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
