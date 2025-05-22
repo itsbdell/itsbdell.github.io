@@ -5,6 +5,8 @@ title: Running
 
 <!--Color codes: Todo - use <mark>; Principles - use <span style="background-co\lor: #ffdab2"> Daily photos - <img src="filename" alt="" style="zoom:50%;" />-->
 
+Holding this page up until I'm ready for it's next version (Coming soon!)
+
 # Training Log
 
 _First half marthon. 5/11/20-..._
