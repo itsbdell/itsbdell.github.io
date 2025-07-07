@@ -1,7 +1,7 @@
 links:
   - title: Notes
-    url: /
+    url: /notes
   - title: About
-    url: /about
+    url: /
   - title: RSS
     url: /atom.xml
