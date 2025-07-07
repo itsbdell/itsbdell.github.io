@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Brian Dell
+title:
 permalink: /
 ---
 
