@@ -1,7 +1,13 @@
 links:
-  - title: About
+  - title: Home
     url: /
   - title: Notes
     url: /notes/
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/brianjdell/
+  - title: Twitter
+    url: https://twitter.com/itsbdell
+  - title: Email
+    url: mailto:dell.brian@gmail.com
   - title: RSS
     url: /atom.xml
