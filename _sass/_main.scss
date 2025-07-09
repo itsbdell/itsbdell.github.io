@@ -180,9 +180,12 @@ header ul {
 }
 
 .post ul,
+.post ol,
 .project ul,
-.post ol {
-  //list-style-position: inside;
+.project ol {
+  padding-left: 2rem;
+  margin-left: 0;
+  list-style-position: outside;
 }
 
 main {
