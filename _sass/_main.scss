@@ -87,25 +87,29 @@ nav a.active {
   background-color: #E8F2E8;
 }
 
-.intro {
+.intro,
+section.intro {
   margin-bottom: 4rem;
   font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
 }
 
-.intro p {
+.intro p,
+section.intro p {
   margin-bottom: 1rem;
 }
 
-.intro a {
+.intro a,
+section.intro a {
   color: #1a1a1a;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
 
-.intro a:hover {
+.intro a:hover,
+section.intro a:hover {
   text-decoration-thickness: 2px;
 }
 
