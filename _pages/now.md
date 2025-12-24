@@ -14,3 +14,4 @@ I like this [idea of research](https://sterneworks.org/) and strategy:
 
 > "serious research leads one to unite what is ordinarily separated or to distinguish what is ordinarily confused."
 
+
