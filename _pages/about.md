@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
 ---
 
 <img src="/images/8bit_brian.png" alt="8bit Brian" width="130"/>
