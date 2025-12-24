@@ -16,3 +16,4 @@ I like this [idea of research](https://sterneworks.org/) and strategy:
 
 
 
+
