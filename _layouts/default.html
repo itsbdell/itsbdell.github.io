@@ -28,46 +28,40 @@ layout: compress
               timeZone: 'America/New_York',
               hour: 'numeric',
               minute: '2-digit',
-              second: '2-digit',
               hour12: true
             });
             
             const timeParts = timeFormatter.formatToParts(now);
-            let hours = 0, minutes = 0, seconds = 0, ampm = '';
+            let hours = 0, minutes = 0, ampm = '';
             
             timeParts.forEach(part => {
               if (part.type === 'hour') hours = parseInt(part.value);
               if (part.type === 'minute') minutes = parseInt(part.value);
-              if (part.type === 'second') seconds = parseInt(part.value);
               if (part.type === 'dayPeriod') ampm = part.value.toUpperCase();
             });
             
-            // Determine if EST or EDT by comparing UTC offset
-            // Eastern Time is UTC-5 (EST) or UTC-4 (EDT)
-            const estDate = new Date(now.toLocaleString('en-US', {timeZone: 'America/New_York'}));
-            const utcDate = new Date(now.toLocaleString('en-US', {timeZone: 'UTC'}));
-            const offset = (estDate.getTime() - utcDate.getTime()) / (1000 * 60 * 60);
-            const timezone = offset === -4 ? 'EDT' : 'EST';
+            // Simple DST check: March to November is typically EDT
+            const month = now.getUTCMonth();
+            const timezone = (month >= 2 && month <= 9) ? 'EDT' : 'EST';
             
             const displayHours = hours;
             const displayMinutes = minutes.toString().padStart(2, '0');
-            const displaySeconds = seconds.toString().padStart(2, '0');
             
-            estTimeElement.textContent = `${displayHours}:${displayMinutes}:${displaySeconds} ${ampm} ${timezone}`;
+            estTimeElement.textContent = `${displayHours}:${displayMinutes} ${ampm} ${timezone}`;
           } catch (e) {
             console.error('Error updating EST time:', e);
           }
         }
         
-        // Update immediately and then every second
+        // Update immediately and then every minute
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', function() {
             updateESTTime();
-            setInterval(updateESTTime, 1000);
+            setInterval(updateESTTime, 60000);
           });
         } else {
           updateESTTime();
-          setInterval(updateESTTime, 1000);
+          setInterval(updateESTTime, 60000);
         }
       })();
     </script>
