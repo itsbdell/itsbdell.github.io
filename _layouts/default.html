@@ -14,40 +14,7 @@ layout: compress
         	    
     </main>
     
-    <script>
-      function updateESTTime() {
-        var el = document.getElementById('est-time');
-        if (!el) return;
-        
-        try {
-          var d = new Date();
-          var options = {
-            timeZone: 'America/New_York',
-            hour: 'numeric',
-            minute: '2-digit',
-            hour12: true
-          };
-          var timeStr = d.toLocaleTimeString('en-US', options);
-          
-          // Get timezone - simple check
-          var month = d.getMonth();
-          var tz = (month >= 2 && month <= 9) ? 'EDT' : 'EST';
-          
-          // Format: remove seconds if present, add timezone
-          timeStr = timeStr.replace(/:\d{2}\s/, ' ').replace(/\s(AM|PM)/i, ' $1 ' + tz);
-          el.textContent = timeStr;
-        } catch (e) {
-          el.textContent = '--:-- EST';
-        }
-      }
-      
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', updateESTTime);
-      } else {
-        updateESTTime();
-      }
-      setInterval(updateESTTime, 60000);
-    </script>
+    <script src="{{ site.baseurl }}/assets/js/time.js"></script>
             
   </body>
 </html>
