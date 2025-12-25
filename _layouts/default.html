@@ -15,31 +15,63 @@ layout: compress
     </main>
     
     <script>
-      function updateESTTime() {
-        const estTimeElement = document.getElementById('est-time');
-        if (!estTimeElement) return;
+      (function() {
+        function updateESTTime() {
+          const estTimeElement = document.getElementById('est-time');
+          if (!estTimeElement) return;
+          
+          try {
+            const now = new Date();
+            
+            // Get time in EST/EDT using Intl.DateTimeFormat
+            const timeFormatter = new Intl.DateTimeFormat('en-US', {
+              timeZone: 'America/New_York',
+              hour: 'numeric',
+              minute: '2-digit',
+              second: '2-digit',
+              hour12: true
+            });
+            
+            const timeParts = timeFormatter.formatToParts(now);
+            let hours = 0, minutes = 0, seconds = 0, ampm = '';
+            
+            timeParts.forEach(part => {
+              if (part.type === 'hour') hours = parseInt(part.value);
+              if (part.type === 'minute') minutes = parseInt(part.value);
+              if (part.type === 'second') seconds = parseInt(part.value);
+              if (part.type === 'dayPeriod') ampm = part.value.toUpperCase();
+            });
+            
+            // Get timezone abbreviation (EST or EDT)
+            const tzFormatter = new Intl.DateTimeFormat('en-US', {
+              timeZone: 'America/New_York',
+              timeZoneName: 'short'
+            });
+            const tzParts = tzFormatter.formatToParts(now);
+            const tzPart = tzParts.find(part => part.type === 'timeZoneName');
+            const timezone = tzPart ? tzPart.value.toUpperCase() : 'EST';
+            
+            const displayHours = hours;
+            const displayMinutes = minutes.toString().padStart(2, '0');
+            const displaySeconds = seconds.toString().padStart(2, '0');
+            
+            estTimeElement.textContent = `${displayHours}:${displayMinutes}:${displaySeconds} ${ampm} ${timezone}`;
+          } catch (e) {
+            console.error('Error updating EST time:', e);
+          }
+        }
         
-        const now = new Date();
-        const estTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
-        
-        const hours = estTime.getHours();
-        const minutes = estTime.getMinutes();
-        const seconds = estTime.getSeconds();
-        const ampm = hours >= 12 ? 'PM' : 'AM';
-        const displayHours = hours % 12 || 12;
-        const displayMinutes = minutes.toString().padStart(2, '0');
-        const displaySeconds = seconds.toString().padStart(2, '0');
-        
-        // Determine if EST or EDT
-        const isDST = estTime.getTimezoneOffset() < now.getTimezoneOffset();
-        const timezone = isDST ? 'EDT' : 'EST';
-        
-        estTimeElement.textContent = `${displayHours}:${displayMinutes}:${displaySeconds} ${ampm} ${timezone}`;
-      }
-      
-      // Update immediately and then every second
-      updateESTTime();
-      setInterval(updateESTTime, 1000);
+        // Update immediately and then every second
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', function() {
+            updateESTTime();
+            setInterval(updateESTTime, 1000);
+          });
+        } else {
+          updateESTTime();
+          setInterval(updateESTTime, 1000);
+        }
+      })();
     </script>
             
   </body>
