@@ -42,14 +42,12 @@ layout: compress
               if (part.type === 'dayPeriod') ampm = part.value.toUpperCase();
             });
             
-            // Get timezone abbreviation (EST or EDT)
-            const tzFormatter = new Intl.DateTimeFormat('en-US', {
-              timeZone: 'America/New_York',
-              timeZoneName: 'short'
-            });
-            const tzParts = tzFormatter.formatToParts(now);
-            const tzPart = tzParts.find(part => part.type === 'timeZoneName');
-            const timezone = tzPart ? tzPart.value.toUpperCase() : 'EST';
+            // Determine if EST or EDT by comparing UTC offset
+            // Eastern Time is UTC-5 (EST) or UTC-4 (EDT)
+            const estDate = new Date(now.toLocaleString('en-US', {timeZone: 'America/New_York'}));
+            const utcDate = new Date(now.toLocaleString('en-US', {timeZone: 'UTC'}));
+            const offset = (estDate.getTime() - utcDate.getTime()) / (1000 * 60 * 60);
+            const timezone = offset === -4 ? 'EDT' : 'EST';
             
             const displayHours = hours;
             const displayMinutes = minutes.toString().padStart(2, '0');
