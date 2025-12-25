@@ -4,6 +4,15 @@ title: Hi, I'm Brian
 permalink: /
 ---
 
+<div class="location-indicator">
+  <svg class="location-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+    <circle cx="12" cy="10" r="3"></circle>
+  </svg>
+  <span>Brooklyn, NY</span>
+  <span class="timezone" id="est-time">--:--:-- EST</span>
+</div>
+
 <div class="intro" markdown="1">
 
 I'm based in Brooklyn, NY. I help big companies grapple with the future, and startups grapple with the present, primarily through standing up new strategies and capabilities - like innovation, incubation and accelerator programs.

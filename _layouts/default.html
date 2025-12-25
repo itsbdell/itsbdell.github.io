@@ -13,6 +13,34 @@ layout: compress
         {{ content }}
         	    
     </main>
+    
+    <script>
+      function updateESTTime() {
+        const estTimeElement = document.getElementById('est-time');
+        if (!estTimeElement) return;
+        
+        const now = new Date();
+        const estTime = new Date(now.toLocaleString("en-US", {timeZone: "America/New_York"}));
+        
+        const hours = estTime.getHours();
+        const minutes = estTime.getMinutes();
+        const seconds = estTime.getSeconds();
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+        const displayHours = hours % 12 || 12;
+        const displayMinutes = minutes.toString().padStart(2, '0');
+        const displaySeconds = seconds.toString().padStart(2, '0');
+        
+        // Determine if EST or EDT
+        const isDST = estTime.getTimezoneOffset() < now.getTimezoneOffset();
+        const timezone = isDST ? 'EDT' : 'EST';
+        
+        estTimeElement.textContent = `${displayHours}:${displayMinutes}:${displaySeconds} ${ampm} ${timezone}`;
+      }
+      
+      // Update immediately and then every second
+      updateESTTime();
+      setInterval(updateESTTime, 1000);
+    </script>
             
   </body>
 </html>
