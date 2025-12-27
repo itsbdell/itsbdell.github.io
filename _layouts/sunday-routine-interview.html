@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section class="post">
+  <h2>{{ page.title }}</h2>
+  {% if page.profession %}
+    <div class="interview-meta">{{ page.profession }}{% if page.location %} • {{ page.location }}{% endif %}</div>
+  {% endif %}
+  {{ content }}
+</section>
+
+
