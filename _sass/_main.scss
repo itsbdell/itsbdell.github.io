@@ -12,8 +12,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
-  color: #1a1a1a;
-  background: #ffffff;
+  color: #e5e5e5;
+  background: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
@@ -28,6 +28,9 @@ main {
 
 header {
   margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .location-indicator {
@@ -37,8 +40,8 @@ header {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.9rem;
-  color: #666;
-  border-top: 1px solid #e8e8e8;
+  color: #999;
+  border-top: 1px solid #2a2a2a;
 }
 
 .location-icon {
@@ -51,7 +54,7 @@ header {
 .timezone {
   margin-left: auto;
   padding-left: 1rem;
-  border-left: 1px solid #e8e8e8;
+  border-left: 1px solid #2a2a2a;
   font-variant-numeric: tabular-nums;
 }
 
@@ -59,7 +62,7 @@ header h1,
 h1.logo {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   letter-spacing: -0.02em;
 }
 
@@ -75,7 +78,7 @@ h1.logo a:hover {
 }
 
 nav {
-  margin-top: 1rem;
+  margin-top: 0;
   font-size: 0.95rem;
 }
 
@@ -92,7 +95,7 @@ nav li {
 }
 
 nav a {
-  color: #666;
+  color: #999;
   text-decoration: none;
   margin-right: 1.5rem;
   padding: 0.25rem 0.5rem;
@@ -101,15 +104,15 @@ nav a {
 }
 
 nav a:hover {
-  color: #1a1a1a;
-  background-color: #E8F2E8;
+  color: #e5e5e5;
+  background-color: #1a1a1a;
   text-decoration: none;
 }
 
 nav a.active {
-  color: #1a1a1a;
+  color: #e5e5e5;
   font-weight: 500;
-  background-color: #E8F2E8;
+  background-color: #1a1a1a;
 }
 
 .intro,
@@ -117,7 +120,7 @@ section.intro {
   margin-bottom: 4rem;
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #333;
+  color: #e5e5e5;
 }
 
 .intro p,
@@ -127,7 +130,7 @@ section.intro p {
 
 .intro a,
 section.intro a {
-  color: #1a1a1a;
+  color: #e5e5e5;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
@@ -144,7 +147,7 @@ section.intro a:hover {
   gap: 0.4rem;
   padding: 0.35rem 0.7rem;
   margin: 0 0.15rem;
-  background-color: #f5f5f5;
+  background-color: #1a1a1a;
   border-radius: 6px;
   text-decoration: none !important;
   transition: all 0.2s ease;
@@ -153,8 +156,8 @@ section.intro a:hover {
 }
 
 .contact-link:hover {
-  background-color: #E8F2E8;
-  color: #1a1a1a;
+  background-color: #2a2a2a;
+  color: #e5e5e5;
   text-decoration: none !important;
 }
 
@@ -169,12 +172,12 @@ section.intro a:hover {
 }
 
 a {
-  color: #1a1a1a;
+  color: #e5e5e5;
   text-decoration-skip-ink: auto;
 }
 
 a:hover {
-  color: #1a1a1a;
+  color: #e5e5e5;
 }
 
 .posts ul,
@@ -198,12 +201,12 @@ a:hover {
 
 .posts li:hover,
 .posts-list li:hover {
-  background-color: #E8F2E8;
+  background-color: #1a1a1a;
 }
 
 .posts li a,
 .posts-list li a {
-  color: #1a1a1a;
+  color: #e5e5e5;
   text-decoration: none;
   flex: 1;
   min-width: 0;
@@ -220,7 +223,7 @@ a:hover {
 .posts li time,
 .posts-list li time,
 .projects li time {
-  color: #666;
+  color: #999;
   font-size: 0.9rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
@@ -231,7 +234,7 @@ a:hover {
 
 .posts li:hover time,
 .posts-list li:hover time {
-  color: #1a1a1a;
+  color: #e5e5e5;
 }
 
 section {
@@ -277,7 +280,7 @@ section {
 
 .post a,
 .post-content a {
-  color: #1a1a1a;
+  color: #e5e5e5;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
@@ -292,8 +295,8 @@ section {
 .post-content blockquote {
   margin: 2rem 0;
   padding-left: 1.5rem;
-  border-left: 3px solid #e0e0e0;
-  color: #555;
+  border-left: 3px solid #2a2a2a;
+  color: #999;
   font-style: italic;
 }
 
@@ -311,16 +314,16 @@ section {
 .post-content blockquote strong {
   font-weight: 600;
   font-style: normal;
-  color: #333;
+  color: #e5e5e5;
 }
 
 .meta,
 .post-meta {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #2a2a2a;
   font-size: 0.9rem;
-  color: #666;
+  color: #999;
 }
 
 .meta time,
@@ -358,8 +361,8 @@ b {
 
 code,
 pre {
-  background: #f5f5f5;
-  color: #333;
+  background: #1a1a1a;
+  color: #e5e5e5;
 }
 
 code {
@@ -383,14 +386,14 @@ img {
 }
 
 hr {
-  background: #e0e0e0;
+  background: #2a2a2a;
   height: 1px;
   border: 0;
   margin: 2rem 0;
 }
 
 .secondary {
-  color: #666;
+  color: #999;
 }
 
 .photos ul {
@@ -408,7 +411,7 @@ hr {
 
 figcaption {
   font-size: smaller;
-  color: #666;
+  color: #999;
 }
 
 @media screen and (max-width: 600px) {
@@ -429,6 +432,15 @@ figcaption {
   .posts-list li time {
     font-size: 0.85rem;
     padding-left: 0;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 1rem;
   }
 
   nav a {
