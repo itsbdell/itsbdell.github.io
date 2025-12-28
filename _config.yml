@@ -44,9 +44,6 @@ collections:
   lists: 
     output: true
     permalink: /lists/:name
-  sunday-routine:
-    output: true
-    permalink: /projects/sunday-routine/:name
     
   
 defaults:
@@ -67,9 +64,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
-      path: ""
-      type: "sunday-routine"
-    values:
-      layout: "sunday-routine-interview"
