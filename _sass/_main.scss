@@ -62,8 +62,11 @@ header h1,
 h1.logo {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-bottom: 0;
+  margin: 0;
   letter-spacing: -0.02em;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
 }
 
 header h1 a,
@@ -78,8 +81,10 @@ h1.logo a:hover {
 }
 
 nav {
-  margin-top: 0;
+  margin: 0;
   font-size: 0.95rem;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
@@ -250,8 +255,6 @@ section {
 .post-content {
   margin-top: 2rem;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .post h2,
@@ -342,8 +345,6 @@ section {
   font-size: 0.9rem;
   color: #999;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .meta time,
