@@ -10,6 +10,10 @@ permalink: /
     <circle cx="12" cy="10" r="3"></circle>
   </svg>
   <span>Brooklyn, NY</span>
+  <span class="weather" id="weather-display">
+    <span class="weather-icon" id="weather-icon"></span>
+    <span class="weather-temp" id="weather-temp">--°F</span>
+  </span>
   <span class="timezone" id="est-time">--:--:-- EST</span>
 </div>
 
