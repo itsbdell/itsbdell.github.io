@@ -51,31 +51,6 @@ header {
   flex-shrink: 0;
 }
 
-.weather {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding-right: 1rem;
-  border-right: 1px solid #2a2a2a;
-}
-
-.weather-icon {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.weather-icon svg {
-  width: 16px;
-  height: 16px;
-  opacity: 0.7;
-}
-
-.weather-temp {
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
 .timezone {
   margin-left: auto;
   padding-left: 1rem;
