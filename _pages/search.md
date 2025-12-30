@@ -12,12 +12,14 @@ title: Search
 		font-size: normal;
 	    outline: none;
 	    padding: 1rem;
-		background: rgb(236, 237, 238);
+		background: var(--bg-secondary);
+		color: var(--text-primary);
 	    width: 100%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
-		border: none;
+		border: 1px solid var(--border-color);
+		border-radius: 4px;
 	}
 	#results-container {
 		margin: .5rem 0;
