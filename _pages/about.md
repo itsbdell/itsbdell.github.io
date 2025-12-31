@@ -53,7 +53,7 @@ permalink: /about/
             <div class="timeline-events">
         {% endif %}
         <div class="timeline-event" data-category="{{ event.category }}">
-          {{ event.title }}
+          <span class="timeline-verb">{{ event.verb }}</span> <span class="timeline-name">{{ event.name }}</span>
         </div>
       {% endfor %}
       {% if current_year != "" %}

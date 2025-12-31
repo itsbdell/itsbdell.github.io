@@ -705,7 +705,7 @@ figcaption {
   left: -5rem;
   top: 0;
   font-size: 0.9rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
   font-variant-numeric: tabular-nums;
   width: 3.5rem;
   text-align: right;
@@ -732,12 +732,19 @@ figcaption {
 .timeline-event {
   margin-bottom: 0.75rem;
   padding-left: 0;
-  color: var(--text-primary);
   line-height: 1.6;
 }
 
 .timeline-event:last-child {
   margin-bottom: 0;
+}
+
+.timeline-verb {
+  color: var(--text-secondary);
+}
+
+.timeline-name {
+  color: var(--text-primary);
 }
 
 .bio-contact {
