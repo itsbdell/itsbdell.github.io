@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+permalink: /about/
 ---
 
 <div class="bio-container">
