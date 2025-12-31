@@ -16,6 +16,9 @@ layout: compress
     
     <script src="{{ site.baseurl }}/assets/js/time.js"></script>
     <script src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
+    {% if page.url == '/about/' or page.path contains 'about.md' %}
+    <script src="{{ site.baseurl }}/assets/js/bio-views.js"></script>
+    {% endif %}
             
   </body>
 </html>

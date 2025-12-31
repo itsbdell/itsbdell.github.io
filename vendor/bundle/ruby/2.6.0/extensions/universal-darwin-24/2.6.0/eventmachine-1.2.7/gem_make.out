@@ -1,5 +1,5 @@
 current directory: /Users/brianjdell/Documents/GitHub/itsbdell.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251224-21723-1x5a8cz.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251230-12472-701g4m.rb extconf.rb --with-cppflags\=-I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
 mkmf.rb can't find header files for ruby at /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/include/ruby.h
 
 You might have to install separate package for the ruby development
