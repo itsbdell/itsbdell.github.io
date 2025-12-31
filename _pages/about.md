@@ -1,13 +1,14 @@
 ---
 layout: page
-title: About me
+title: 
 permalink: /about/
 ---
 
 <div class="bio-container">
-  <img src="/images/8bit_brian.png" alt="8bit Brian" width="130"/>
-
-  <h2>Hi, I'm Brian</h2>
+  <div class="bio-header">
+    <img src="/images/8bit_brian.png" alt="8bit Brian" width="60" class="bio-avatar"/>
+    <h2>Hi, I'm Brian</h2>
+  </div>
 
   <div class="bio-controls">
     <div class="bio-view-controls">
