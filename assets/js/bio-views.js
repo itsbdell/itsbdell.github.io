@@ -16,6 +16,7 @@
     const proseBtn = document.getElementById('view-prose');
     const listBtn = document.getElementById('view-list');
     const timelineBtn = document.getElementById('view-timeline');
+    const nowBtn = document.getElementById('view-now');
 
     // Get filter buttons (only visible in timeline view)
     const filterAll = document.getElementById('filter-all');
@@ -26,11 +27,12 @@
     const proseContent = document.getElementById('bio-prose');
     const listContent = document.getElementById('bio-list');
     const timelineContent = document.getElementById('bio-timeline');
+    const nowContent = document.getElementById('bio-now');
 
     // Get current view from URL hash or default to prose
     let currentView = 'prose';
     const hash = window.location.hash.substring(1);
-    if (hash === 'list' || hash === 'timeline') {
+    if (hash === 'list' || hash === 'timeline' || hash === 'now') {
       currentView = hash;
     }
 
@@ -47,6 +49,7 @@
     if (proseBtn) proseBtn.addEventListener('click', () => setView('prose'));
     if (listBtn) listBtn.addEventListener('click', () => setView('list'));
     if (timelineBtn) timelineBtn.addEventListener('click', () => setView('timeline'));
+    if (nowBtn) nowBtn.addEventListener('click', () => setView('now'));
 
     // Filter button event listeners
     if (filterAll) filterAll.addEventListener('click', () => setFilter('all'));
@@ -64,18 +67,20 @@
       }
 
       // Update button states
-      [proseBtn, listBtn, timelineBtn].forEach(btn => {
+      [proseBtn, listBtn, timelineBtn, nowBtn].forEach(btn => {
         if (btn) btn.classList.remove('active');
       });
 
       if (view === 'prose' && proseBtn) proseBtn.classList.add('active');
       if (view === 'list' && listBtn) listBtn.classList.add('active');
       if (view === 'timeline' && timelineBtn) timelineBtn.classList.add('active');
+      if (view === 'now' && nowBtn) nowBtn.classList.add('active');
 
       // Show/hide content
       if (proseContent) proseContent.style.display = view === 'prose' ? 'block' : 'none';
       if (listContent) listContent.style.display = view === 'list' ? 'block' : 'none';
       if (timelineContent) timelineContent.style.display = view === 'timeline' ? 'block' : 'none';
+      if (nowContent) nowContent.style.display = view === 'now' ? 'block' : 'none';
 
       // Show/hide filter buttons
       const filterControls = document.querySelector('.bio-filters');
@@ -138,7 +143,7 @@
     // Handle browser back/forward buttons
     window.addEventListener('hashchange', function() {
       const hash = window.location.hash.substring(1);
-      if (hash === 'list' || hash === 'timeline') {
+      if (hash === 'list' || hash === 'timeline' || hash === 'now') {
         setView(hash);
       } else {
         setView('prose');

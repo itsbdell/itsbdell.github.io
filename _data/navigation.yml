@@ -1,8 +1,6 @@
 links:
-  - title: About
-    url: /about/
-  - title: Now
-    url: /now/
+  - title: Info
+    url: /info/
   - title: Notes
     url: /notes/
   - title: RSS
