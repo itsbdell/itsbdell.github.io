@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="landing-page">
-  <h1>Brian Dell</h1>
+  <img src="https://www.cirvin.com/images/back_soon.jpg" alt="Back Soon" class="landing-image">
   <div class="social-links">
     <a href="https://twitter.com/itsbdell" class="social-link">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -41,10 +41,11 @@ permalink: /
   text-align: center;
 }
 
-.landing-page h1 {
-  font-size: 2.5rem;
+.landing-image {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 2rem;
-  font-weight: 400;
+  border-radius: 8px;
 }
 
 .social-links {
