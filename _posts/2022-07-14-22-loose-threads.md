@@ -2,6 +2,7 @@
 layout: post
 title: loose threads
 type: note
+published: false
 --- 
 
 **Qual Maxxing**

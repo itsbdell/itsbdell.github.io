@@ -2,6 +2,7 @@
 layout: post
 title: Hello World
 type: note
+published: false
 ---
 
 This is a test post, but it's also an _actual post_, so here are some clippings from the desktop folder. 

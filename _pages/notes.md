@@ -2,6 +2,7 @@
 layout: default
 title: Notes
 permalink: /notes/
+published: false
 ---
 
 <section class="posts">

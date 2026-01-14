@@ -1,7 +1,9 @@
-links:
-  - title: Info
-    url: /info/
-  - title: Notes
-    url: /notes/
-  - title: RSS
-    url: /atom.xml
+# Navigation links hidden while site is in maintenance mode
+# Original links:
+#   - title: Info
+#     url: /info/
+#   - title: Notes
+#     url: /notes/
+#   - title: RSS
+#     url: /atom.xml
+links: []

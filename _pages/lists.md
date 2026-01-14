@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Lists
+published: false
 ---
 
 {% for lists in site.lists %}

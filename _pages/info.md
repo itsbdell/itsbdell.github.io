@@ -1,7 +1,8 @@
 ---
 layout: page
-title: 
+title:
 permalink: /info/
+published: false
 ---
 
 <div class="bio-container">
