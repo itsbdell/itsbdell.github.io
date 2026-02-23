@@ -491,9 +491,7 @@ section {
 
 // ─── Lists ───────────────────────────────────────
 .post ul,
-.post ol,
-.project ul,
-.project ol {
+.post ol {
   padding-left: 1rem;
   margin-left: 0;
   list-style-position: outside;
@@ -555,17 +553,6 @@ hr {
   margin: 1.5rem 0;
 }
 
-.secondary {
-  color: var(--text-secondary);
-}
-
-.photos ul {
-  list-style: none;
-}
-
-.photos li {
-  margin-bottom: 1rem;
-}
 
 figcaption {
   font-size: 12px;
