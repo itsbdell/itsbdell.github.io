@@ -4,21 +4,19 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en" >
-  {% include head.html %}  
+  {% include head.html %}
   <body>
     <main>
-	    
+
 	    {% include navigation.html %}
-	    
+
         {{ content }}
-        	    
+
     </main>
-    
-    <script src="{{ site.baseurl }}/assets/js/time.js"></script>
+
+    {% include footer.html %}
+
     <script src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
-    {% if page.url == '/info/' or page.path contains 'info.md' %}
-    <script src="{{ site.baseurl }}/assets/js/bio-views.js"></script>
-    {% endif %}
-            
+
   </body>
 </html>

@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Lists
-published: false
+permalink: /lists/
+published: true
 ---
 
 {% for lists in site.lists %}

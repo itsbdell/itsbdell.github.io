@@ -1,20 +1,27 @@
 site: briandell.xyz
 url: https://briandell.xyz
 title: Brian Dell
-description: 
+description: "Notes, essays, and projects from Brian Dell — thinking in public about strategy, technology, and organizational change."
+tagline: 'I think in public about strategy, technology, and organizational change. Browse my <a href="/writing/">writing</a>, <a href="/projects/">projects</a>, or learn <a href="/about/">about me</a>.'
+footer_tagline: "Long leverage. Short certainty."
 twitter:
-  username: itsbdell 
+  username: itsbdell
   card: summary
   creator: itsbdell
 author:
   twitter: itsbdell
-  name: itsbdell
+  name: Brian Dell
   avatar:
   email: dell.brian@gmail.com
   url: briandell.xyz
-permalink: pretty
 
-url: "https://briandell.xyz"
+social:
+  twitter: itsbdell
+  linkedin: brianjdell
+  email: dell.brian@gmail.com
+  newsletter: ""
+
+permalink: pretty
 
 highlighter: none
 
@@ -64,3 +71,4 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      type: "note"

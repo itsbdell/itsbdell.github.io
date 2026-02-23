@@ -2,7 +2,7 @@
 layout: post
 title: FOMO Identities
 type: note
-published: false
+published: true
 ---
 
 <blockquote class="quoteback" darkmode="" data-title="Adam%20Phillips%20%C2%B7%20On%20Being%20Left%20Out%3A%20On%20FOMO%20%C2%B7%20LRB%2020%20May%202021" data-author="Adam Phillips" cite="https://www.lrb.co.uk/the-paper/v43/n10/adam-phillips/on-being-left-out">

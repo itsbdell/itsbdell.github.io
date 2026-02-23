@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Notes
-permalink: /notes/
+title: Essays
+permalink: /essays/
 published: true
 nav_parent: /writing/
 ---
@@ -9,13 +9,13 @@ nav_parent: /writing/
 <section class="stream">
 <div class="writing-filters">
   <a href="/writing/">All</a>
-  <a href="/notes/" class="active">Notes</a>
-  <a href="/essays/">Essays</a>
+  <a href="/notes/">Notes</a>
+  <a href="/essays/" class="active">Essays</a>
   <a href="/projects/">Projects</a>
 </div>
 {% assign current_year = "" %}
-{% assign notes = site.posts | where: "type", "note" %}
-{% for post in notes %}
+{% assign essays = site.posts | where: "type", "essay" %}
+{% for post in essays %}
   {% assign post_year = post.date | date: "%Y" %}
   {% if post_year != current_year %}
     {% assign first_of_year = true %}

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Practical Poetry
-type: post
-published: false
+type: essay
+published: true
 ---
 
 From an [interview with the psychoanalyst and writer Adam Phillips](https://www.economist.com/prospero/2012/03/29/poetry-as-therapy):

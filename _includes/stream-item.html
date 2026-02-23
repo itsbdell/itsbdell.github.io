@@ -1,0 +1,9 @@
+<article class="stream-item">
+  <a class="stream-item-link" href="{{ include.item.url | relative_url }}">
+    <div class="stream-item-content">
+      <div class="stream-year">{% if include.first_of_year %}{{ include.year }}{% endif %}</div>
+      <h3 class="stream-title">{{ include.item.title }}</h3>
+      <div class="stream-meta">{{ include.item.date | date: "%b %-d" }}</div>
+    </div>
+  </a>
+</article>

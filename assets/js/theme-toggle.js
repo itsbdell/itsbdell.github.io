@@ -7,14 +7,14 @@
     if (savedTheme) {
       return savedTheme;
     }
-    
+
     // Detect system preference
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-      return 'light';
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
     }
-    
-    // Default to dark
-    return 'dark';
+
+    // Default to light
+    return 'light';
   }
 
   // Apply theme to document
@@ -28,11 +28,11 @@
   function updateToggleIcon(theme) {
     const toggle = document.getElementById('theme-toggle');
     if (!toggle) return;
-    
+
     const darkIcon = toggle.querySelector('.theme-icon-dark');
     const lightIcon = toggle.querySelector('.theme-icon-light');
-    
-    if (theme === 'light') {
+
+    if (theme === 'dark') {
       if (darkIcon) darkIcon.style.display = 'none';
       if (lightIcon) lightIcon.style.display = 'block';
     } else {
@@ -49,8 +49,8 @@
 
   // Handle toggle button click
   function handleToggleClick() {
-    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
   }
 
@@ -65,11 +65,11 @@
   // Listen for system theme changes
   function watchSystemTheme() {
     if (window.matchMedia) {
-      const mediaQuery = window.matchMedia('(prefers-color-scheme: light)');
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
       mediaQuery.addEventListener('change', function(e) {
         // Only apply system preference if user hasn't manually set a preference
         if (!localStorage.getItem('theme')) {
-          setTheme(e.matches ? 'light' : 'dark');
+          setTheme(e.matches ? 'dark' : 'light');
         }
       });
     }
@@ -88,9 +88,3 @@
     watchSystemTheme();
   }
 })();
-
-
-
-
-
-
