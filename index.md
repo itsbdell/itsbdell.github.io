@@ -4,6 +4,8 @@ title: Brian Dell
 permalink: /
 ---
 
+<h2 class="section-heading">Writing</h2>
+
 <section class="stream">
 {% assign current_year = "" %}
 {% for post in site.posts %}

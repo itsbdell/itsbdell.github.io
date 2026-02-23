@@ -126,6 +126,14 @@ header.no-print {
   line-height: 1.6;
 }
 
+.header-bio p {
+  margin: 0 0 1rem;
+}
+
+.header-bio p:last-child {
+  margin-bottom: 0;
+}
+
 .header-bio a {
   color: var(--accent);
   text-decoration: none;
@@ -134,6 +142,16 @@ header.no-print {
 
 .header-bio a:hover {
   text-decoration: underline;
+}
+
+// ─── Section headings (e.g. "Writing" on homepage) ──
+.section-heading {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 1rem;
 }
 
 @media (min-width: 768px) {
@@ -341,7 +359,7 @@ section {
 
 .post p,
 .post-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   line-height: 1.7;
 }
 
@@ -574,12 +592,6 @@ figcaption {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-}
-
-.footer-tagline {
-  font-size: 15px;
-  color: var(--text-secondary);
-  font-style: italic;
 }
 
 .footer-icons {

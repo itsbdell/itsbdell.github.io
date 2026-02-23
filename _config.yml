@@ -2,8 +2,8 @@ site: briandell.xyz
 url: https://briandell.xyz
 title: Brian Dell
 description: "Notes, essays, and projects from Brian Dell — thinking in public about strategy, technology, and organizational change."
-tagline: 'I think in public about strategy, technology, and organizational change. Browse my <a href="/writing/">writing</a>, <a href="/projects/">projects</a>, or learn <a href="/about/">about me</a>.'
-footer_tagline: "Long leverage. Short certainty."
+tagline: 'I lead <strong>new explorations</strong> at the <a href="https://www.lowesinnovationlabs.com/">Lowe''s Innovation Labs</a>.'
+footer_tagline: ""
 twitter:
   username: itsbdell
   card: summary
