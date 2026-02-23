@@ -2,7 +2,7 @@
 layout: page
 title: Lists
 permalink: /lists/
-published: true
+published: false
 ---
 
 {% for lists in site.lists %}
