@@ -19,16 +19,6 @@
   --border-color: #d8dae8;
 }
 
-[data-theme="dark"] {
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2a2a2a;
-  --text-primary: #ededed;
-  --text-secondary: #999999;
-  --text-tertiary: #666666;
-  --accent: #6366f1;
-  --accent-hover: #818cf8;
-  --border-color: #333333;
-}
 
 *,
 :after,
@@ -110,14 +100,21 @@ header.no-print {
   color: var(--text-primary);
 }
 
-.header-subscribe {
-  font-size: 18px;
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-weight: 400;
+// Header social icons (right side of header-top)
+.header-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
-.header-subscribe:hover {
+.header-icons a {
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+  display: inline-flex;
+}
+
+.header-icons a:hover {
   color: var(--text-primary);
 }
 
@@ -240,7 +237,6 @@ header.no-print {
   }
 
   .site-name,
-  .header-subscribe,
   .header-back {
     font-size: 16px;
   }
@@ -574,80 +570,14 @@ figcaption {
   gap: 1rem;
 }
 
-.footer-tagline {
-  font-size: 13px;
-  font-weight: 300;
-  font-style: italic;
-  color: var(--text-tertiary);
-  margin-bottom: 1rem;
-}
-
 .footer-ai {
   font-size: 10px;
   font-weight: 400;
   color: var(--text-tertiary);
   letter-spacing: 0.05em;
-  border: 1px solid var(--border-color);
+  border: 1px solid rgba(77, 82, 234, 0.2);
   border-radius: 4px;
   padding: 0.2rem 0.6rem;
-}
-
-.footer-icons {
-  display: flex;
-  gap: 1.25rem;
-  align-items: center;
-}
-
-.footer-icons a {
-  color: var(--text-tertiary);
-  text-decoration: none;
-  transition: color 0.15s ease;
-  display: inline-flex;
-}
-
-.footer-icons a:hover {
-  color: var(--text-primary);
-}
-
-// ─── Theme Toggle ────────────────────────────────
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  padding: 0;
-  margin: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--text-tertiary);
-  border-radius: 6px;
-  transition: color 0.15s ease;
-  flex-shrink: 0;
-}
-
-.theme-toggle:hover {
-  color: var(--text-primary);
-}
-
-.theme-toggle svg {
-  width: 14px;
-  height: 14px;
-  stroke: currentColor;
-  fill: none;
-}
-
-.theme-toggle .theme-icon-light {
-  display: none;
-}
-
-[data-theme="dark"] .theme-toggle .theme-icon-light {
-  display: block;
-}
-
-[data-theme="dark"] .theme-toggle .theme-icon-dark {
-  display: none;
 }
 
 // ─── Page-level prose ────────────────────────────
