@@ -1,0 +1,271 @@
+# Library — books, articles, podcasts, and films
+# status: read | want
+# type: book | article | podcast | film
+
+# ── Read ──────────────────────────────────────────
+
+- title: "Mrs. Dalloway"
+  author: "Virginia Woolf"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780156628709-L.jpg"
+  url: "https://books.google.com/books?id=REQOAAAAIAAJ"
+  note: "Read with The Catherine Project reading group. Woolf is a magician — dazzling sentences, crystalline phrases."
+
+- title: "Stoner"
+  author: "John Williams"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9781590171998-L.jpg"
+  url: "https://books.google.com/books?id=kXFRAAAAMAAJ"
+  note: "Immaculately crafted."
+
+- title: "Never Split the Difference"
+  author: "Chris Voss"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780062407801-L.jpg"
+  url: "https://books.google.com/books?id=RmdqBgAAQBAJ"
+  note: "Tactical negotiation notes in vault."
+
+- title: "How to Future"
+  author: "Scott Smith"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9781789664294-L.jpg"
+  url: "https://books.google.com/books?id=r74lEAAAQBAJ"
+  note: "Photos captured from the book."
+
+- title: "The Glass Bead Game"
+  author: "Hermann Hesse"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780312278496-L.jpg"
+  url: "https://books.google.com/books?id=GvE8PgAACAAJ"
+
+- title: "In Our Time"
+  author: "Ernest Hemingway"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780684822761-L.jpg"
+  url: "https://books.google.com/books?id=sIhVBBQ2NOIC"
+
+- title: "The Art of Fiction"
+  author: "John Gardner"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780679734031-L.jpg"
+  url: "https://books.google.com/books?id=eOPiAAAAMAAJ"
+
+- title: "Go Tell It on the Mountain"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780375701870-L.jpg"
+  url: "https://books.google.com/books?id=PLUfAQAAIAAJ"
+
+- title: "The Fire Next Time"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780679744726-L.jpg"
+  url: "https://books.google.com/books?id=DpyVeJRFkHkC"
+
+- title: "The Temple of the Golden Pavilion"
+  author: "Yukio Mishima"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780679752707-L.jpg"
+  url: "https://books.google.com/books?id=EF2GDQAAQBAJ"
+
+- title: "The Metamorphosis"
+  author: "Franz Kafka"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780553213690-L.jpg"
+  url: "https://books.google.com/books?id=z3ITEAAAQBAJ"
+
+- title: "The Castle"
+  author: "Franz Kafka"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780805211061-L.jpg"
+  url: "https://books.google.com/books?id=dg8QAQAAIAAJ"
+
+- title: "Down and Out in Paris and London"
+  author: "George Orwell"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780156262248-L.jpg"
+  url: "https://books.google.com/books?id=JuxhDwAAQBAJ"
+
+- title: "Homage to Catalonia"
+  author: "George Orwell"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780156421171-L.jpg"
+  url: "https://books.google.com/books?id=aNgYAAAAIAAJ"
+
+- title: "Animal Farm"
+  author: "George Orwell"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg"
+  url: "https://books.google.com/books?id=6ADMswEACAAJ"
+
+- title: "1984"
+  author: "George Orwell"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
+  url: "https://books.google.com/books?id=kotPYEqx7kMC"
+
+- title: "The Lonely Voice"
+  author: "Frank O'Connor"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/id/737274-L.jpg"
+  url: "https://books.google.com/books?id=9_kNAQAAIAAJ"
+
+- title: "Men Without Women"
+  author: "Ernest Hemingway"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780684158012-L.jpg"
+  url: "https://books.google.com/books?id=3wEuAAAAMAAJ"
+
+- title: "A Moveable Feast"
+  author: "Ernest Hemingway"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780684833637-L.jpg"
+  url: "https://books.google.com/books?id=WmjODwAAQBAJ"
+
+- title: "Giovanni's Room"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/id/97395-L.jpg"
+  url: "https://books.google.com/books?id=LXGEDwAAQBAJ"
+
+- title: "Notes of a Native Son"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780807006238-L.jpg"
+  url: "https://books.google.com/books?id=cSJIAAAAMAAJ"
+
+- title: "Going to Meet the Man"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780679761792-L.jpg"
+  url: "https://books.google.com/books?id=IWG-AAAACAAJ"
+
+- title: "Another Country"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780679744719-L.jpg"
+  url: "https://books.google.com/books?id=XJQOAQAAIAAJ"
+
+- title: "If Beale Street Could Talk"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780307275936-L.jpg"
+  url: "https://books.google.com/books?id=al-uDwAAQBAJ"
+
+- title: "No Name in the Street"
+  author: "James Baldwin"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780307275936-L.jpg"
+  url: "https://books.google.com/books?id=MNdIDwAAQBAJ"
+
+- title: "The Complete Stories of Franz Kafka"
+  author: "Franz Kafka"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780805210552-L.jpg"
+  url: "https://books.google.com/books?id=aUf-jwEACAAJ"
+
+- title: "Ward No. 6 and Other Stories"
+  author: "Anton Chekhov"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/id/12750346-L.jpg"
+  url: "https://books.google.com/books?id=M2xGAAAAMAAJ"
+
+- title: "The Collected Plays of Chekhov"
+  author: "Anton Chekhov"
+  type: book
+  status: read
+  cover: ""
+  url: "https://books.google.com/books?id=M2xGAAAAMAAJ"
+
+- title: "The Collected Stories of Chekhov"
+  author: "Anton Chekhov"
+  type: book
+  status: read
+  cover: ""
+  url: "https://books.google.com/books?id=M2xGAAAAMAAJ"
+
+- title: "The Dark Is Rising"
+  author: "Susan Cooper"
+  type: book
+  status: read
+  cover: "https://covers.openlibrary.org/b/isbn/9780689710872-L.jpg"
+  url: "https://books.google.com/books?id=3jOwngEACAAJ"
+
+# ── Want to Read ──────────────────────────────────
+
+- title: "Siddhartha"
+  author: "Hermann Hesse"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9780553208849-L.jpg"
+  url: "https://books.google.com/books?id=G30oAAAACAAJ"
+  source: "Re-read"
+
+- title: "The Monastic World"
+  author: "Andrew Jotischky"
+  type: book
+  status: want
+  cover: ""
+  url: "https://books.google.com/books?id=9QoXBAAAQBAJ"
+
+- title: "The Country and the City"
+  author: "Raymond Williams"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9780195198102-L.jpg"
+  url: "https://books.google.com/books?id=SXu3AAAAIAAJ"
+
+- title: "Free Play"
+  author: "Stephen Nachmanovitch"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9780874776317-L.jpg"
+  url: "https://books.google.com/books?id=ot4BAAAACAAJ"
+
+- title: "The Poetry Handbook"
+  author: "Mary Oliver"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9780156724005-L.jpg"
+  url: "https://books.google.com/books?id=jj2LDQAAQBAJ"
+
+- title: "The Idea Factory"
+  author: "Jon Gertner"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9780143122791-L.jpg"
+  url: "https://books.google.com/books?id=ekmYDwAAQBAJ"
+
+- title: "Infinite Powers"
+  author: "Steven Strogatz"
+  type: book
+  status: want
+  cover: "https://covers.openlibrary.org/b/isbn/9781328879981-L.jpg"
+  url: "https://books.google.com/books?id=eBRKDwAAQBAJ"

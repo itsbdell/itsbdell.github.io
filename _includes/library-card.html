@@ -1,0 +1,24 @@
+{% assign item = include.item %}
+<div class="library-card">
+  <a href="{{ item.url }}" class="library-card-link" target="_blank" rel="noopener">
+    {% if item.cover and item.cover != "" %}
+      <img class="library-cover" src="{{ item.cover }}" alt="{{ item.title }}" loading="lazy">
+    {% else %}
+      <div class="library-fallback">
+        <span class="library-fallback-title">{{ item.title }}</span>
+        <span class="library-fallback-author">{{ item.author }}</span>
+      </div>
+    {% endif %}
+    <div class="library-meta">
+      <span class="library-type library-type--{{ item.type }}">{{ item.type | capitalize }}</span>
+      <h3 class="library-title">{{ item.title }}</h3>
+      <p class="library-author">{{ item.author }}</p>
+    </div>
+  </a>
+  {% if item.note and item.status == "read" %}
+    <p class="library-note">{{ item.note }}</p>
+  {% endif %}
+  {% if item.source and item.status == "want" %}
+    <p class="library-source">{{ item.source }}</p>
+  {% endif %}
+</div>

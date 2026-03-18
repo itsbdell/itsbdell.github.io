@@ -1,40 +1,26 @@
 # Session Handoff
 
 ## Done
-- **Font matching to kojo.blog**: Loaded Inter from Google Fonts (300, 400, 700). Matched every element's font size, weight, and family to kojo's CSS:
-  - Site name / Subscribe / back link: 18px, weight 400 (Inter)
-  - Bio: 16px, weight 300 (light)
-  - "Writing" section heading: 18px, weight 400, normal case
-  - Stream year/date: 14px, weight 300
-  - Stream title: 16px, weight 400
-  - Article title: 32px, weight 400, letter-spacing -0.5px
-  - Article meta: 14px, weight 300, letter-spacing 0.5px
-  - Article body paragraphs: 18px, weight 400, line-height 1.6
-  - Body line-height: 1.5 (was 1.6)
-  - Max-width: 720px (was 42rem/672px)
-- **Blue-tinted background**: `#f0f2fa` (light mode), with matching secondary `#e8eaf5` and border `#d8dae8`
-- **Text colors matched to kojo**: primary `#100f0f`, secondary `#343331`, tertiary `#6f6e69`
-- **Header spacing**: Name-to-bio gap increased to 1.875rem (30px) desktop, 1.25rem (20px) mobile — matches kojo's `.intro { margin: 3rem 0 }`
-- **Updated bio**: "I lead **new explorations** at the Lowe's Innovation Labs." + second paragraph with nav links (now, about, reading, projects)
-- **"Writing" section heading** above posts on homepage
-- **Footer tagline**: "Before the Big Future. Endless little futures." — 13px, italic, weight 300, tertiary color
-- **AwAI badge**: "AwAI" in a 10px rounded-square capsule (4px radius, 1px border) at bottom of footer
-- **Repo cleanup** (4,106 lines deleted): removed junk files, unused pages/layouts/includes/JS, dead CSS, stale vendor artifacts, updated .gitignore
-- **Mobile sizing**: proportional scaling, no aggressive shrinking
+- Implemented the full Library page at `/library/` per spec
+- Created `_data/library.yml` with 30 read items and 7 antilibrary items, using Open Library cover URLs
+- Created `_includes/library-card.html` partial with cover image + text fallback support
+- Created `_pages/library.md` with CSS-only toggle between Library / Antilibrary views
+- Added `.library-*` styles to `_sass/_main.scss` (grid, cards, covers, fallbacks, toggle, responsive)
+- Added Library link to `_data/navigation.yml`
+- Updated `/reading/` page to redirect to `/library/` via meta refresh
+- Updated homepage bio link from `/reading/` to `/library/`
 
 ## Pending
-- No outstanding tasks
+- Local Jekyll build couldn't verify (Ruby 2.6 vs vendor bundle built for 3.1) — needs `bundle exec jekyll serve` verification once Ruby env is sorted
+- Cover image URLs from Open Library should be spot-checked — some ISBNs may not have covers available
+- No year grouping implemented yet (spec mentioned it but the final layout spec used a flat grid)
 
 ## Decisions
-- Inter loaded from Google Fonts CDN (not self-hosted) — simpler, cached across sites
-- Kojo overrides Ghost's default bold site name with `text-lg font-normal` (18px/400) — matched this, not the theme default (24px/700)
-- "Writing" heading: initially tried kojo's exact style (18px/400 normal case), Brian preferred the uppercase label version, then reverted to match kojo exactly when doing the full font pass
-- Bio uses `<p>` tags with 1rem gap between paragraphs
-- Footer tagline is hardcoded in footer.html (not config-driven) since it's unlikely to change often
-- AwAI badge: plain text in a rounded-square capsule, no icon — maximally minimal
+- Used `layout: default` instead of `layout: page` to avoid double-wrapping with `<section class="post">`
+- Used meta refresh for `/reading/` → `/library/` redirect since `jekyll-redirect-from` plugin isn't installed
+- CSS-only toggle (no JS) for Library/Antilibrary switching using checkbox + sibling selectors
+- Used Open Library covers API URLs (ISBN-based) for cover images
 
 ## Open questions
-- `_data/navigation.yml` may be stale — nav is now in bio paragraph, not a nav bar
-- Images directory is 141M — could audit for unused images
-- AwAI could link to an explanatory page (`/awai/`) in the future
-- Dark mode colors unchanged from previous session — may want to audit against the new Inter font rendering
+- Should items be grouped by year within each view, or is the flat grid sufficient?
+- Are all Open Library cover URLs resolving correctly?
