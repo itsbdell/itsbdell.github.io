@@ -1,7 +1,7 @@
 ---
 title: "Phrase-Chain"
-date: 2016-01-01
-years: "2016–Present"
+date: 2026-01-01
+years: "2026"
 ---
 
 Collaborative poetry with AI. A writing tool where you and the machine take turns building a poem, phrase by phrase.

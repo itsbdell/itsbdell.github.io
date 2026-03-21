@@ -1,16 +1,9 @@
 # Projects — things I've built, explored, or shipped
 
-- title: "Personal Site"
-  slug: "personal-site"
-  date: "2025-06-15"
-  years: "2025–Present"
-  cover: ""
-  description: "This site — built with Jekyll, designed for thinking in public"
-
 - title: "Little Futures"
   slug: "little-futures"
-  date: "2025-09-01"
-  years: "2025–Present"
+  date: "2019-01-01"
+  years: "2019–Present"
   cover: "/images/projects/little-futures.png"
   description: "A semi-regular newsletter with Tom Critchlow"
 
@@ -30,8 +23,8 @@
 
 - title: "Momentum Groups"
   slug: "momentum-groups"
-  date: "2024-01-01"
-  years: "2023–2024"
+  date: "2023-01-01"
+  years: "2023"
   cover: ""
   description: "A cohort experiment in finding opportunity through your network"
 
@@ -44,8 +37,8 @@
 
 - title: "SundayRoutine.com"
   slug: "sunday-routine"
-  date: "2018-01-01"
-  years: "2017–2018"
+  date: "2014-01-01"
+  years: "2013–2014"
   cover: "/images/projects/sunday-routine.png"
   description: "The day-off routines of interesting people"
 
@@ -58,28 +51,28 @@
 
 - title: "Phoetry"
   slug: "phoetry"
-  date: "2016-01-01"
-  years: "2015–2016"
+  date: "2025-01-01"
+  years: "2025"
   cover: ""
   description: "Poetry on your lock screen"
 
 - title: "Phrase-Chain"
   slug: "well-phrased"
-  date: "2016-01-01"
-  years: "2016–Present"
+  date: "2026-01-01"
+  years: "2026"
   cover: "/images/projects/well-phrased.png"
   description: "Collaborative poetry with AI"
 
 - title: "Valedictorian"
   slug: "valedictorian"
   date: "2015-01-01"
-  years: "2014–2015"
+  years: "2015"
   cover: "/images/projects/valedictorian.jpg"
   description: "Feature film, shot one day a month for a year"
 
 - title: "Controller"
   slug: "controller"
-  date: "2012-01-01"
-  years: "2010–2013"
+  date: "2020-01-01"
+  years: "2012–2020"
   cover: "/images/projects/controller.png"
   description: "A rock & roll and then a synth-pop band"

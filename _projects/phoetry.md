@@ -1,7 +1,7 @@
 ---
 title: "Phoetry"
-date: 2016-01-01
-years: "2015–2016"
+date: 2025-01-01
+years: "2025"
 ---
 
 Poetry on your lock screen. An iOS app that delivered a new poem to your phone's lock screen every day.

@@ -1,7 +1,7 @@
 ---
 title: "Controller"
-date: 2012-01-01
-years: "2010–2013"
+date: 2020-01-01
+years: "2012–2020"
 ---
 
 A rock & roll and then a synth-pop band. Started as guitar-driven rock in college, evolved into synthesizer-heavy pop over three years of writing and performing.

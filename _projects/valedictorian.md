@@ -1,7 +1,7 @@
 ---
 title: "Valedictorian"
 date: 2015-01-01
-years: "2014–2015"
+years: "2015"
 ---
 
 A feature film, shot one day a month for a year. Each chapter captures a single day in the life of a recent graduate navigating the year after college.

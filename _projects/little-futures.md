@@ -1,7 +1,7 @@
 ---
 title: "Little Futures"
-date: 2025-09-01
-years: "2025–Present"
+date: 2019-01-01
+years: "2019–Present"
 ---
 
 A semi-regular newsletter with [Tom Critchlow](https://tomcritchlow.com/) exploring strategy, foresight, and the signals hiding in plain sight.
