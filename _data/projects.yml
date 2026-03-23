@@ -11,7 +11,7 @@
   slug: "codebacks"
   date: "2022-01-01"
   years: "2022"
-  cover: ""
+  cover: "/images/projects/codebacks_image.avif"
   description: "On-chain citation standard for open-source code"
 
 - title: "Open Affiliates"
@@ -32,7 +32,7 @@
   slug: "accelerator-canvas"
   date: "2019-01-01"
   years: "2019"
-  cover: ""
+  cover: "/images/projects/Accelerator_Canvas.png"
   description: "Planning tool for accelerators"
 
 - title: "SundayRoutine.com"
