@@ -3,90 +3,106 @@
 - title: "LF14 - Remembering Futures"
   url: "https://littlefutures.substack.com/p/remembering-futures"
   date: "2025-05-28"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "Little Futures Season 3"
   url: "https://littlefutures.substack.com/p/little-futures-season-3"
   date: "2025-05-06"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "Codebacks"
   url: "/projects/codebacks/"
   date: "2022-01-01"
+  type: project
   icon: "/images/icon-project.svg"
 
 - title: "Open Affiliates"
   url: "/projects/open-affiliates/"
   date: "2022-01-01"
+  type: project
   icon: "/images/icon-project.svg"
 
 - title: "LF11 - Cohort Futures"
   url: "https://littlefutures.substack.com/p/lf11-cohort-futures"
   date: "2020-10-01"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF09 - Public Futures"
   url: "https://littlefutures.substack.com/p/lf09-public-futures"
   date: "2020-09-17"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF07 - Seamful Futures"
   url: "https://littlefutures.substack.com/p/lf07-seamful-futures"
   date: "2020-08-26"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF06 - Practical Nonsense"
   url: "https://littlefutures.substack.com/p/lf06-practical-nonsense"
   date: "2019-10-23"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF05 - Strategy is Memory"
   url: "https://littlefutures.substack.com/p/lf05-strategy-is-memory"
   date: "2019-10-11"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF04 - Play not Prototypes"
   url: "https://littlefutures.substack.com/p/lf04-play-not-prototypes"
   date: "2019-10-04"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF03 - Language is a Problem"
   url: "https://littlefutures.substack.com/p/lf03-language-is-a-problem"
   date: "2019-09-25"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF02 - Every Company Needs to Learn"
   url: "https://littlefutures.substack.com/p/little-futures-2-every-company-needs-to-learn"
   date: "2019-09-19"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "LF01 - Business Time"
   url: "https://littlefutures.substack.com/p/little-futures-1-business-time"
   date: "2019-09-11"
+  type: writing
   external: true
   icon: "/images/lf-logo.png"
 
 - title: "Dog Poems 1-5"
   url: "/projects/dog-poems/"
   date: "2018-01-01"
+  type: project
   icon: "/images/icon-project.svg"
 
 - title: "Valedictorian"
   url: "/projects/valedictorian/"
   date: "2015-01-01"
+  type: project
   icon: "/images/icon-project.svg"
 
 - title: "SundayRoutine.com"
   url: "/projects/sunday-routine/"
   date: "2014-01-01"
+  type: project
   icon: "/images/icon-project.svg"

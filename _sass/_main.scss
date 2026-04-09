@@ -276,6 +276,57 @@ hr {
   stroke: var(--text-tertiary);
 }
 
+// ─── Filter tabs (CSS-only) ──────────────────────
+.filter-input {
+  display: none;
+}
+
+.filter-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.filter-header .section-heading {
+  margin: 0;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 0.125rem;
+}
+
+.filter-tab {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.05s ease;
+}
+
+.filter-tab:hover {
+  color: var(--text-primary);
+}
+
+// Active tab states
+#filter-all:checked ~ .filter-header .filter-tabs label[for="filter-all"],
+#filter-writing:checked ~ .filter-header .filter-tabs label[for="filter-writing"],
+#filter-projects:checked ~ .filter-header .filter-tabs label[for="filter-projects"] {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+// Filter visibility
+#filter-writing:checked ~ .item-list .item-type-project {
+  display: none;
+}
+
+#filter-projects:checked ~ .item-list .item-type-writing {
+  display: none;
+}
+
 // ─── Spotlight hover (sibling dim) ───────────────
 .item-list:has(.item-list-entry:hover) .item-list-entry:not(:hover) {
   opacity: 0.3;
