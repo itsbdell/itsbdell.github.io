@@ -244,6 +244,15 @@ hr {
   margin-top: 0.125rem;
 }
 
+// Item icon (e.g. LF logo)
+.item-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  vertical-align: -2px;
+  margin-right: 0.25rem;
+}
+
 // External link icon
 .item-external {
   display: inline-flex;

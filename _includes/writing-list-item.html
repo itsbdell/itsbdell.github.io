@@ -2,6 +2,9 @@
   <a href="{{ include.item.url }}" class="item-link" {% if include.item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
     <div class="item-row">
       <span class="item-title">
+        {% if include.item.icon %}
+        <img src="{{ include.item.icon }}" alt="" class="item-icon">
+        {% endif %}
         {{ include.item.title }}
         {% if include.item.external %}
         <span class="item-external" aria-hidden="true">
