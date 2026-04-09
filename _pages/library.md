@@ -5,7 +5,7 @@ permalink: /library/
 published: true
 ---
 
-<a href="/" class="back-link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg> Back</a>
+<a href="/" class="back-link">&larr;</a>
 
 <h1 class="post-title">Library</h1>
 {% assign items = site.data.library %}
