@@ -1,12 +1,56 @@
 # Writing — Brian's Little Futures posts
-# Add your posts here: title, url, date, external: true
-# Example:
-# - title: "Your Post Title"
-#   url: "https://littlefutures.substack.com/p/your-post-slug"
-#   date: "2025-01-15"
-#   external: true
 
-- title: "Placeholder — add your Little Futures posts here"
-  url: "https://littlefutures.substack.com/"
-  date: "2025-01-01"
+- title: "LF14 - Remembering Futures"
+  url: "https://littlefutures.substack.com/p/remembering-futures"
+  date: "2025-05-28"
+  external: true
+
+- title: "Little Futures Season 3"
+  url: "https://littlefutures.substack.com/p/little-futures-season-3"
+  date: "2025-05-06"
+  external: true
+
+- title: "LF11 - Cohort Futures"
+  url: "https://littlefutures.substack.com/p/lf11-cohort-futures"
+  date: "2020-10-01"
+  external: true
+
+- title: "LF09 - Public Futures"
+  url: "https://littlefutures.substack.com/p/lf09-public-futures"
+  date: "2020-09-17"
+  external: true
+
+- title: "LF07 - Seamful Futures"
+  url: "https://littlefutures.substack.com/p/lf07-seamful-futures"
+  date: "2020-08-26"
+  external: true
+
+- title: "LF06 - Practical Nonsense"
+  url: "https://littlefutures.substack.com/p/lf06-practical-nonsense"
+  date: "2019-10-23"
+  external: true
+
+- title: "LF05 - Strategy is Memory"
+  url: "https://littlefutures.substack.com/p/lf05-strategy-is-memory"
+  date: "2019-10-11"
+  external: true
+
+- title: "LF04 - Play not Prototypes"
+  url: "https://littlefutures.substack.com/p/lf04-play-not-prototypes"
+  date: "2019-10-04"
+  external: true
+
+- title: "LF03 - Language is a Problem"
+  url: "https://littlefutures.substack.com/p/lf03-language-is-a-problem"
+  date: "2019-09-25"
+  external: true
+
+- title: "LF02 - Every Company Needs to Learn"
+  url: "https://littlefutures.substack.com/p/little-futures-2-every-company-needs-to-learn"
+  date: "2019-09-19"
+  external: true
+
+- title: "LF01 - Business Time"
+  url: "https://littlefutures.substack.com/p/little-futures-1-business-time"
+  date: "2019-09-11"
   external: true
