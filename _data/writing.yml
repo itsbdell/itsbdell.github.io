@@ -1,0 +1,12 @@
+# Writing — Brian's Little Futures posts
+# Add your posts here: title, url, date, external: true
+# Example:
+# - title: "Your Post Title"
+#   url: "https://littlefutures.substack.com/p/your-post-slug"
+#   date: "2025-01-15"
+#   external: true
+
+- title: "Placeholder — add your Little Futures posts here"
+  url: "https://littlefutures.substack.com/"
+  date: "2025-01-01"
+  external: true

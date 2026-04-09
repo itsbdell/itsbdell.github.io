@@ -2,13 +2,17 @@
 layout: default
 ---
 
-<section class="post">
-  <a href="/projects/" class="project-back">&larr; Projects</a>
+<a href="/" class="back-link">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg>
+  Back
+</a>
+
+<article class="post">
   <div class="project-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-header post-meta">{{ page.years }}</p>
+    <p class="project-years">{{ page.years }}</p>
   </div>
-  <div class="post-content project-body">
+  <div class="post-content">
     {{ content }}
   </div>
-</section>
+</article>

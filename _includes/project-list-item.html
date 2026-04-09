@@ -1,0 +1,11 @@
+<li class="item-list-entry">
+  <a href="/projects/{{ include.project.slug }}/" class="item-link">
+    <div class="item-row">
+      <span class="item-title">{{ include.project.title }}</span>
+      <span class="item-date">{{ include.project.years }}</span>
+    </div>
+    {% if include.project.description %}
+    <div class="item-description">{{ include.project.description }}</div>
+    {% endif %}
+  </a>
+</li>
