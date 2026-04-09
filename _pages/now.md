@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: /now/
-published: true
+published: false
 ---
 
 {% if site.data.bio.now.bullets %}

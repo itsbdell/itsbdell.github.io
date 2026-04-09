@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="intro">
-  <p class="intro-bio">{{ site.tagline }} I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. See what I'm up to <a href="/now/">now</a>, or browse my <a href="/library/">library</a>.</p>
+  <p class="intro-bio">{{ site.tagline }} I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. Browse my <a href="/library/">library</a>.</p>
 </div>
 
 <hr>
