@@ -10,15 +10,6 @@ permalink: /
 
 <hr>
 
-<h2 class="section-heading">Projects</h2>
-
-<ul class="item-list">
-{% assign sorted_projects = site.data.projects | sort: "date" | reverse %}
-{% for project in sorted_projects %}
-  {% include project-list-item.html project=project %}
-{% endfor %}
-</ul>
-
 {% if site.data.writing.size > 0 %}
 <h2 class="section-heading">Writing</h2>
 
