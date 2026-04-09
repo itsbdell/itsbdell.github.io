@@ -1,6 +1,14 @@
 <header class="site-header no-print">
-  <a href="/" class="site-name">{{ site.title }}</a>
+  <div class="site-name-row">
+    <a href="/" class="site-name">{{ site.title }}</a>
+    {% if page.permalink != "/" and page.title %}
+    <span class="site-name-sep">/</span>
+    <span class="site-name-page">{{ page.title }}</span>
+    {% endif %}
+  </div>
   {% if page.permalink == "/" %}
   <p class="site-updated">Updated {{ site.time | date: "%b %-d, %Y" }}</p>
+  {% else %}
+  <a href="/" class="back-link">&larr;</a>
   {% endif %}
 </header>

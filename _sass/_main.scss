@@ -97,6 +97,23 @@ main {
   color: var(--accent-hover);
 }
 
+.site-name-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.375rem;
+}
+
+.site-name-sep {
+  font-size: 14px;
+  color: var(--text-tertiary);
+}
+
+.site-name-page {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
 .site-updated {
   font-size: 13px;
   color: var(--text-tertiary);

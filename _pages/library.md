@@ -5,9 +5,6 @@ permalink: /library/
 published: true
 ---
 
-<a href="/" class="back-link">&larr;</a>
-
-<h1 class="post-title">Library</h1>
 {% assign items = site.data.library %}
 {% assign read = items | where: "status", "read" %}
 

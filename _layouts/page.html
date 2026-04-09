@@ -2,14 +2,7 @@
 layout: default
 ---
 
-{% unless page.permalink == "/" %}
-<a href="/" class="back-link">&larr;</a>
-{% endunless %}
-
 <section class="post">
-  {% if page.title and page.title != "" %}
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% endif %}
   <div class="post-content">
     {{ content }}
   </div>
