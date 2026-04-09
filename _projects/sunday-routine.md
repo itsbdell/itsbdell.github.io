@@ -4,7 +4,7 @@ date: 2014-01-01
 years: "2013–2014"
 ---
 
-![SundayRoutine.com](/images/projects/sunday-routine.png)
+![SundayRoutine.com](/images/projects/Sunday_Routine_Snapshot.png)
 
 The day-off routines of interesting people. A site dedicated to how creative professionals, founders, and thinkers spend their Sundays.
 
