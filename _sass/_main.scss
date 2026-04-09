@@ -257,6 +257,12 @@ hr {
   background: var(--bg-primary);
 }
 
+@media (prefers-color-scheme: dark) {
+  .item-icon:not([src$=".png"]) {
+    filter: invert(1);
+  }
+}
+
 // External link icon
 .item-external {
   display: inline-flex;
