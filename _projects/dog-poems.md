@@ -9,3 +9,5 @@ years: "2018"
 Write on the walk. Write on the phone. Revise on the subway. It's a dog poem.
 
 A series of five poems written while walking dogs in New York — quick compositions shaped by the pace and rhythm of the walk itself.
+
+[Read the poems (PDF)](/Dog%20Poems%20%231-5.pdf) · [Poster (PDF)](/Dog%20Poems%20%231-5_page.pdf)
