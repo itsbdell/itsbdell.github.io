@@ -107,6 +107,13 @@
     Cache-Control = "max-age=3600, public"
 
 [[headers]]
+  for = "/apps.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "max-age=3600, public"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
   for = "*.mp4"
   [headers.values]
     Content-Type = "video/mp4"

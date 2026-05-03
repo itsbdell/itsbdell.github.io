@@ -1,0 +1,19 @@
+---
+layout: null
+---
+{
+  "version": "1.0",
+  "self": "https://briandell.xyz/apps.json",
+  "updated": "{{ site.time | date_to_xmlschema }}",
+  "author": {
+    "name": "Brian Dell",
+    "url": "https://briandell.xyz",
+    "email": "dell.brian@gmail.com",
+    "social": [
+      { "platform": "github", "url": "https://github.com/itsbdell", "handle": "itsbdell" },
+      { "platform": "twitter", "url": "https://x.com/itsbdell", "handle": "@itsbdell" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/brianjdell", "handle": "brianjdell" }
+    ]
+  },
+  "apps": {{ site.data.apps | jsonify }}
+}

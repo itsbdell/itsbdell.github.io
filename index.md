@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="intro">
-  <p class="intro-bio">Hi. I'm Brian. I'm a dad, product and biz person based in Brooklyn, NY. I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. Browse my <a href="/library/">library</a>.</p>
+  <p class="intro-bio">Hi. I'm Brian. I'm a dad, product and biz person based in Brooklyn, NY. I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. Browse my <a href="/library/">library</a> or <a href="/apps/">apps</a>.</p>
 </div>
 
 <hr>

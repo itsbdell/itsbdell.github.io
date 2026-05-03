@@ -1,0 +1,61 @@
+# Source of truth for /apps.json and the /apps/ page.
+# Edit this file; both the public feed and the rendered page rebuild from it.
+# Spec: https://github.com/itsbdell/apps-json
+
+- id: apps-json
+  name: "apps.json"
+  description: "A lightweight, decentralized standard for publishing apps. RSS for vibe-coded micro-apps."
+  url: "https://apps-json.org"
+  tags: [standard, feed, decentralized]
+  vibe_coded: true
+  forkable: true
+  source: "https://github.com/itsbdell/apps-json"
+  targets:
+    - kind: web
+      url: "https://apps-json.org"
+      label: "Read the spec"
+    - kind: web
+      url: "https://github.com/itsbdell/apps-json"
+      label: "View on GitHub"
+
+- id: verses
+  name: "Verses"
+  description: "Turn poems into lock-screen wallpapers. Pick a poem, choose a theme, export a full-resolution PNG."
+  url: "https://verses.briandell.xyz/"
+  tags: [poetry, wallpaper, ios]
+  vibe_coded: true
+  forkable: true
+  source: "https://github.com/itsbdell/verses-app"
+  targets:
+    - kind: web
+      url: "https://verses.briandell.xyz/"
+      label: "Open Verses"
+    - kind: web
+      url: "https://github.com/itsbdell/verses-app"
+      label: "View source"
+
+- id: nthen
+  name: "nthen"
+  description: "An iOS app paired with a Claude and Obsidian workflow."
+  url: "https://github.com/itsbdell/nthen"
+  tags: [ios, claude, obsidian]
+  vibe_coded: true
+  forkable: true
+  source: "https://github.com/itsbdell/nthen"
+  targets:
+    - kind: ios
+      url: "https://github.com/itsbdell/nthen"
+      label: "View source"
+
+- id: cozy-feeds
+  name: "Cozy Feeds"
+  description: "A static feed generator. Aggregate RSS feeds into a simple, self-hosted reading page."
+  url: "https://github.com/itsbdell/cozy-feeds"
+  tags: [rss, static-site, feeds]
+  vibe_coded: true
+  forkable: true
+  source: "https://github.com/itsbdell/cozy-feeds"
+  targets:
+    - kind: web
+      url: "https://github.com/itsbdell/cozy-feeds"
+      label: "View on GitHub"
