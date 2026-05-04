@@ -17,29 +17,16 @@
 
 // ─── Color variables ─────────────────────────────
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
 
-  --bg-primary: #fafaf9;
-  --bg-secondary: #f5f5f4;
-  --text-primary: #1c1917;
-  --text-secondary: #44403c;
+  --bg-primary: #0c0a09;
+  --bg-secondary: #1c1917;
+  --text-primary: #fafaf9;
+  --text-secondary: #d6d3d1;
   --text-tertiary: #78716c;
-  --accent: #1c1917;
+  --accent: #fafaf9;
   --accent-hover: #78716c;
-  --border-color: #e7e5e4;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: #0c0a09;
-    --bg-secondary: #1c1917;
-    --text-primary: #fafaf9;
-    --text-secondary: #d6d3d1;
-    --text-tertiary: #78716c;
-    --accent: #fafaf9;
-    --accent-hover: #78716c;
-    --border-color: #292524;
-  }
+  --border-color: #292524;
 }
 
 // ─── Reset ───────────────────────────────────────
@@ -265,10 +252,8 @@ hr {
   padding: 1px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .item-icon:not([src$=".png"]) {
-    filter: invert(1);
-  }
+.item-icon:not([src$=".png"]) {
+  filter: invert(1);
 }
 
 // External link icon
