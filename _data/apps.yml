@@ -36,7 +36,7 @@
 
 - id: nthen
   name: "nthen"
-  description: "An iOS app paired with a Claude and Obsidian workflow."
+  description: "An iOS capture app that writes fast daily-life logs, photos, capsules, and routines into an Obsidian vault stored in GitHub."
   url: "https://github.com/itsbdell/nthen"
   tags: [ios, claude, obsidian]
   vibe_coded: true
@@ -56,6 +56,9 @@
   forkable: true
   source: "https://github.com/itsbdell/cozy-feeds"
   targets:
+    - kind: template
+      url: "https://cloud.digitalocean.com/apps/new?repo=https://github.com/itsbdell/cozy-feeds/tree/main"
+      label: "Deploy to DigitalOcean"
     - kind: web
       url: "https://github.com/itsbdell/cozy-feeds"
       label: "View on GitHub"
