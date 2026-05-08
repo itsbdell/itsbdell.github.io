@@ -1,0 +1,62 @@
+---
+layout: default
+title: Brian Dell
+permalink: /
+---
+
+<div class="intro">
+  <p class="intro-bio">Hi. I'm Brian. I'm a dad, product and biz person based in Brooklyn, NY. I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. Browse my <a href="/library/">library</a> or <a href="/apps/">apps</a>.</p>
+</div>
+
+<hr>
+
+{% assign writing_items = site.data.writing | where: "type", "writing" | sort: "date" | reverse %}
+{% if writing_items.size > 0 %}
+<section class="home-section">
+  <h2 class="section-heading">Latest writing</h2>
+  <ul class="item-list">
+  {% for item in writing_items limit: 10 %}
+    <li class="item-list-entry">
+      <a href="{{ item.url }}" class="item-link" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+        <div class="item-row">
+          <span class="item-title">{{ item.title }}</span>
+          <span class="item-date">{{ item.date | date: "%B %-d, %Y" }}</span>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+  <a href="/writing/" class="see-all">See all <span class="arrow">&rarr;</span></a>
+</section>
+{% endif %}
+
+<hr>
+
+{% assign projects = site.data.projects | sort: "date" | reverse %}
+{% if projects.size > 0 %}
+<section class="home-section">
+  <h2 class="section-heading">Projects</h2>
+  <ul class="item-list">
+  {% for project in projects %}
+    <li class="project-list-entry">
+      <a href="/projects/{{ project.slug }}/" class="project-link">
+        <span class="project-icon">
+          {% if project.icon %}
+          <img src="{{ project.icon }}" alt="">
+          {% else %}
+          <span class="project-icon-placeholder">{{ project.title | slice: 0 | upcase }}</span>
+          {% endif %}
+        </span>
+        <span class="project-body">
+          <span class="project-title">{{ project.title }}</span>
+          {% if project.description %}
+          <span class="project-description">{{ project.description }}</span>
+          {% endif %}
+        </span>
+        <span class="project-meta">{{ project.years }}</span>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}
