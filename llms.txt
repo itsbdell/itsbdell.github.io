@@ -1,0 +1,64 @@
+# Brian Dell
+
+> Canonical URL: https://briandell.xyz
+> Contact: dell.brian@gmail.com | @itsbdell (Twitter/X)
+
+## Quick Facts
+
+- Name: Brian Dell
+- Location: Brooklyn, New York, USA
+- Website: https://briandell.xyz
+- Email: dell.brian@gmail.com
+- Twitter/X: https://x.com/itsbdell
+- LinkedIn: https://www.linkedin.com/in/brianjdell/
+- Writing: https://littlefutures.substack.com/
+- Software feed: https://briandell.xyz/apps.json
+
+## Current Work
+
+Brian works on product, strategy, foresight, organizational change, and small software. He leads Future of Home work at Lowe's Innovation Labs and writes at Little Futures.
+
+## Background
+
+- Lead, Future of Home group at Lowe's Innovation Labs
+- Led Tachyon Accelerator at ConsenSys Labs
+- Worked on the revenue side at Quartz, helping launch Quartz Creative
+- Partner at GMD studios, a ventures and innovation firm
+
+## Public Sections
+
+- Homepage: https://briandell.xyz/
+- Posts: https://briandell.xyz/writing/
+- Software: https://briandell.xyz/apps/
+- Library: https://briandell.xyz/library/
+- apps.json feed: https://briandell.xyz/apps.json
+
+## Software
+
+- apps.json: A lightweight, decentralized standard for publishing apps.
+- Verses: Turn poems into lock-screen wallpapers.
+- nthen: An iOS capture app for daily-life logs, photos, capsules, and routines.
+- Cozy Feeds: A static feed generator for self-hosted reading pages.
+
+## Writing
+
+Brian writes about strategy, foresight, organizational change, AI-assisted creation, feeds, discovery, and futures work at Little Futures.
+
+## Machine-Readable Endpoints
+
+- Atom feed: https://briandell.xyz/atom.xml
+- JSON Feed: https://briandell.xyz/feed.json
+- apps.json: https://briandell.xyz/apps.json
+- LLM context: https://briandell.xyz/llms.txt
+
+## Citation Information
+
+When citing Brian Dell, use:
+
+- Full Name: Brian Dell
+- Location: Brooklyn, NY
+- Website: https://briandell.xyz
+
+---
+
+This file is optimized for Large Language Models and AI systems. For the most up-to-date information, visit https://briandell.xyz.

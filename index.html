@@ -4,59 +4,70 @@ title: Brian Dell
 permalink: /
 ---
 
-<div class="intro">
-  <p class="intro-bio">Hi. I'm Brian. I'm a dad, product and biz person based in Brooklyn, NY. I write about strategy, foresight, and organizational change at <a href="https://littlefutures.substack.com/">Little Futures</a>. Browse my <a href="/library/">library</a> or <a href="/apps/">apps</a>.</p>
-</div>
-
-<hr>
+<section class="home-section">
+  <h2>Currently</h2>
+  <p>Hi. I'm Brian - husband, dad, product + biz person in Brooklyn.</p>
+  <ul>
+    <li><b>Work:</b> Emerging tech at <a href="https://www.lowesinnovationlabs.com/">Lowe's Innovation Labs</a></li>
+    <li><b>Reading:</b> <a href="https://www.penguinrandomhouse.com/books/688602/how-to-know-a-person-by-david-brooks/">How To Know A Person</a> by David Brooks</li>
+    <li><b>Thinking about:</b> small software, media as method, AI safety as fluency</li>
+  </ul>
+</section>
 
 {% assign writing_items = site.data.writing | where: "type", "writing" | sort: "date" | reverse %}
 {% if writing_items.size > 0 %}
 <section class="home-section">
-  <h2 class="section-heading">Latest writing</h2>
-  <ul class="item-list">
-  {% for item in writing_items limit: 10 %}
-    <li class="item-list-entry">
-      <a href="{{ item.url }}" class="item-link" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
-        <div class="item-row">
-          <span class="item-title">{{ item.title }}</span>
-          <span class="item-date">{{ item.date | date: "%B %-d, %Y" }}</span>
-        </div>
-      </a>
+  <h2>Recent posts</h2>
+  <ul>
+  {% for item in writing_items limit: 3 %}
+    <li>
+      <a href="{{ item.url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}</a>
+      <span class="muted">({{ item.date | date: "%b %-d, %Y" }})</span>
     </li>
   {% endfor %}
   </ul>
-  <a href="/writing/" class="see-all">See all <span class="arrow">&rarr;</span></a>
+  <p><a href="/writing/">All posts</a></p>
 </section>
 {% endif %}
 
-<hr>
-
-{% assign projects = site.data.projects | sort: "date" | reverse %}
-{% if projects.size > 0 %}
 <section class="home-section">
-  <h2 class="section-heading">Projects</h2>
-  <ul class="item-list">
-  {% for project in projects %}
-    <li class="project-list-entry">
-      <a href="/projects/{{ project.slug }}/" class="project-link">
-        <span class="project-icon">
-          {% if project.icon %}
-          <img src="{{ project.icon }}" alt="">
-          {% else %}
-          <span class="project-icon-placeholder">{{ project.title | slice: 0 | upcase }}</span>
-          {% endif %}
-        </span>
-        <span class="project-body">
-          <span class="project-title">{{ project.title }}</span>
-          {% if project.description %}
-          <span class="project-description">{{ project.description }}</span>
-          {% endif %}
-        </span>
-        <span class="project-meta">{{ project.years }}</span>
-      </a>
+  <h2>Social</h2>
+  <ul>
+    <li><a href="https://x.com/{{ site.social.twitter }}">X / Twitter</a></li>
+    <li><a href="https://littlefutures.substack.com/">Little Futures</a></li>
+  </ul>
+</section>
+
+<section class="home-section">
+  <h2>Contact</h2>
+  <ul>
+    <li><a href="mailto:{{ site.social.email }}">Email</a></li>
+    <li><a href="https://github.com/{{ site.social.github }}">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/">LinkedIn</a></li>
+  </ul>
+</section>
+
+{% if site.data.apps.size > 0 %}
+<section class="home-section">
+  <h2>Software</h2>
+  <ul>
+  {% for app in site.data.apps %}
+    <li>
+      <a href="{{ app.url }}" target="_blank" rel="noopener noreferrer">{{ app.name }}</a>
+      {% if app.description %} - {{ app.description }}{% endif %}
     </li>
   {% endfor %}
   </ul>
+  <p><a href="/apps/">All software</a> · <a href="/apps.json">apps.json</a></p>
 </section>
 {% endif %}
+
+<section class="home-section">
+  <h2>Feeds</h2>
+  <ul>
+    <li><a href="/atom.xml">Atom</a></li>
+    <li><a href="/feed.json">JSON Feed</a></li>
+    <li><a href="/apps.json">apps.json</a></li>
+    <li><a href="/llms.txt">llms.txt</a></li>
+  </ul>
+</section>

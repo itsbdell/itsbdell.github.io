@@ -1,14 +1,10 @@
 <header class="site-header no-print">
-  <div class="site-name-row">
-    <a href="/" class="site-name">{{ site.title }}</a>
-    {% if page.permalink != "/" and page.title %}
-    <span class="site-name-sep">/</span>
-    <span class="site-name-page">{{ page.title }}</span>
-    {% endif %}
-  </div>
-  {% if page.permalink == "/" %}
-  <p class="site-updated">Updated {{ site.time | date: "%b %-d, %Y" }}</p>
-  {% else %}
-  <a href="/" class="back-link">&larr; Back</a>
-  {% endif %}
+  <h1 class="site-name">
+    <a href="/">{{ site.title }}</a>
+  </h1>
+  <nav class="site-nav" aria-label="Primary">
+    {% for item in site.data.navigation.links %}
+    <a href="{{ item.url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+  </nav>
 </header>

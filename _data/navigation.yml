@@ -1,13 +1,10 @@
 links:
   - title: About
-    url: /about/
-  - title: Writing
+    url: /
+  - title: Posts
     url: /writing/
-  - title: Projects
-    url: /projects/
-  - title: Library
-    url: /library/
-  - title: Apps
+  - title: Software
     url: /apps/
-  - title: Lists
-    url: /lists/
+  - title: Subscribe
+    url: https://littlefutures.substack.com/
+    external: true
