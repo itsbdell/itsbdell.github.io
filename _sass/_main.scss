@@ -30,6 +30,8 @@ body {
   letter-spacing: 0.01em;
   color: var(--text-secondary);
   background: var(--bg-primary);
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -822,7 +824,7 @@ figure img {
   align-items: center;
   gap: 1.5rem;
   width: max-content;
-  animation: ticker-tape-scroll 32s linear infinite;
+  animation: ticker-tape-scroll var(--ticker-duration, 40s) linear infinite;
   will-change: transform;
 }
 
@@ -847,6 +849,8 @@ figure img {
   text-decoration: none;
   color: var(--text-secondary);
   padding: 2px 0;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 .ticker-tape-item:hover,
@@ -856,15 +860,21 @@ figure img {
 
 .ticker-tape-icon {
   color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .ticker-tape-title {
   color: var(--text-primary);
+  font-size: 12px;
   font-weight: 600;
+  line-height: 18px;
 }
 
 .ticker-tape-author {
   color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .ticker-tape-author::before {

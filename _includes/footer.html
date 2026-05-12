@@ -1,10 +1,23 @@
 <footer class="site-footer no-print">
   {% assign recent_saves = site.data.recent_saves %}
   {% if recent_saves.size > 0 %}
+  {% assign ticker_units = 0 %}
+  {% for save in recent_saves %}
+    {% assign title_size = save.title | size %}
+    {% assign author_size = save.author | size %}
+    {% assign ticker_units = ticker_units | plus: title_size | plus: author_size | plus: 10 %}
+  {% endfor %}
+  {% assign ticker_duration = ticker_units | divided_by: 2 %}
+  {% if ticker_duration < 32 %}
+    {% assign ticker_duration = 32 %}
+  {% endif %}
+  {% if ticker_duration > 72 %}
+    {% assign ticker_duration = 72 %}
+  {% endif %}
   <section class="ticker-tape" aria-label="Recently saved links">
     <div class="ticker-tape-label">Recently saved</div>
     <div class="ticker-tape-window">
-      <div class="ticker-tape-track">
+      <div class="ticker-tape-track" style="--ticker-duration: {{ ticker_duration }}s;">
         <div class="ticker-tape-group">
         {% for save in recent_saves %}
         <a class="ticker-tape-item" href="{{ save.url }}" target="_blank" rel="noopener noreferrer">
