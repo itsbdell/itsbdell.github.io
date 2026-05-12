@@ -1,6 +1,41 @@
 ---
 - type: article
   icon: "✦"
+  title: Software Is Liquid | Jamie Thingelstad
+  author: thingelstad.com
+  url: https://www.thingelstad.com/2026/04/20/software-is-liquid.html
+  source: pinboard
+  saved_at: '2026-05-12T17:17:52Z'
+- type: article
+  icon: "✦"
+  title: One Developer, Two Dozen Agents, Zero Alignment
+  author: maggieappleton.com
+  url: https://maggieappleton.com/zero-alignment
+  source: pinboard
+  saved_at: '2026-05-12T17:17:29Z'
+- type: article
+  icon: "✦"
+  title: An update on recent Claude Code quality reports Anthropic
+  author: anthropic.com
+  url: https://www.anthropic.com/engineering/april-23-postmortem
+  source: pinboard
+  saved_at: '2026-05-12T17:17:22Z'
+- type: tweet
+  icon: "※"
+  title: 'Michael Mignano on X: "It always comes back to network effects" / X'
+  author: x.com
+  url: https://x.com/mignano/status/2053108729504043201
+  source: pinboard
+  saved_at: '2026-05-12T17:12:12Z'
+- type: tweet
+  icon: "※"
+  title: 'tobi lutke on X: "Learning on the Shop floor " / X'
+  author: x.com
+  url: https://x.com/tobi/status/2053121182044451016
+  source: pinboard
+  saved_at: '2026-05-12T17:06:09Z'
+- type: article
+  icon: "✦"
   title: The Ma of a New Machine – Scott Jenson
   author: jenson.org
   url: https://jenson.org/ma/
