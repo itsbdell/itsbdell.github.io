@@ -14,11 +14,10 @@
   {% if ticker_duration > 72 %}
     {% assign ticker_duration = 72 %}
   {% endif %}
-  {% assign ticker_hover_duration = ticker_duration | times: 3 %}
   <section class="ticker-tape" aria-label="Recently saved links">
     <div class="ticker-tape-label">Recently saved</div>
     <div class="ticker-tape-window">
-      <div class="ticker-tape-track" style="--ticker-duration: {{ ticker_duration }}s; --ticker-hover-duration: {{ ticker_hover_duration }}s;">
+      <div class="ticker-tape-track" style="--ticker-duration: {{ ticker_duration }}s;">
         <div class="ticker-tape-group">
         {% for save in recent_saves %}
         <a class="ticker-tape-item" href="{{ save.url }}" target="_blank" rel="noopener noreferrer">

@@ -824,16 +824,12 @@ figure img {
   align-items: center;
   gap: 1.5rem;
   width: max-content;
-  animation-duration: var(--ticker-duration, 40s);
-  animation-iteration-count: infinite;
-  animation-name: ticker-tape-scroll;
-  animation-timing-function: linear;
+  animation: ticker-tape-scroll var(--ticker-duration, 40s) linear infinite;
   will-change: transform;
 }
 
-.ticker-tape:hover .ticker-tape-track,
 .ticker-tape:focus-within .ticker-tape-track {
-  animation-duration: var(--ticker-hover-duration, 120s);
+  animation-play-state: paused;
 }
 
 .ticker-tape-group {
