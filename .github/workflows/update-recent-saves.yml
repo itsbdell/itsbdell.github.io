@@ -1,0 +1,34 @@
+name: Update recent saves
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Fetch recent saves
+        env:
+          PINBOARD_AUTH_TOKEN: ${{ secrets.PINBOARD_AUTH_TOKEN }}
+          RECENT_SAVES_LOOKBACK_HOURS: "48"
+          RECENT_SAVES_MAX_ITEMS: "12"
+        run: ruby scripts/update_recent_saves.rb
+
+      - name: Commit updated ticker data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update recent saves ticker"
+          file_pattern: _data/recent_saves.yml

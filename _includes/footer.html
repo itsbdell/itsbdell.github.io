@@ -1,4 +1,33 @@
 <footer class="site-footer no-print">
+  {% assign recent_saves = site.data.recent_saves %}
+  {% if recent_saves.size > 0 %}
+  <section class="ticker-tape" aria-label="Recently saved links">
+    <div class="ticker-tape-label">Recently saved</div>
+    <div class="ticker-tape-window">
+      <div class="ticker-tape-track">
+        <div class="ticker-tape-group">
+        {% for save in recent_saves %}
+        <a class="ticker-tape-item" href="{{ save.url }}" target="_blank" rel="noopener noreferrer">
+          <span class="ticker-tape-icon" aria-hidden="true">{{ save.icon }}</span>
+          <span class="ticker-tape-title">{{ save.title }}</span>
+          <span class="ticker-tape-author">{{ save.author }}</span>
+        </a>
+        {% endfor %}
+        </div>
+        <div class="ticker-tape-group" aria-hidden="true">
+        {% for save in recent_saves %}
+        <a class="ticker-tape-item" href="{{ save.url }}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+          <span class="ticker-tape-icon" aria-hidden="true">{{ save.icon }}</span>
+          <span class="ticker-tape-title">{{ save.title }}</span>
+          <span class="ticker-tape-author">{{ save.author }}</span>
+        </a>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   <nav class="footer-links" aria-label="Footer">
     {% if site.social.twitter %}
     <a href="https://x.com/{{ site.social.twitter }}">X</a>
