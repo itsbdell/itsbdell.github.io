@@ -1,58 +1,23 @@
 ---
+- type: video
+  icon: "▶"
+  title: 'Watch "Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — Maggie Appleton, GitHub" on YouTube'
+  author: youtube.com
+  url: https://www.youtube.com/watch?si=x3cX1u4Kl6lLKtKi&v=ClWD8OEYgp8&feature=youtu.be
+  source: pinboard
+  saved_at: '2026-05-15T13:43:50Z'
 - type: article
   icon: "✦"
-  title: Software Is Liquid | Jamie Thingelstad
-  author: thingelstad.com
-  url: https://www.thingelstad.com/2026/04/20/software-is-liquid.html
+  title: From Open Source Software to Open Source Strategy
+  author: p3institute.substack.com
+  url: https://p3institute.substack.com/p/from-open-source-software-to-open?source=queue
   source: pinboard
-  saved_at: '2026-05-12T17:17:52Z'
+  saved_at: '2026-05-15T13:43:08Z'
 - type: article
   icon: "✦"
-  title: One Developer, Two Dozen Agents, Zero Alignment
-  author: maggieappleton.com
-  url: https://maggieappleton.com/zero-alignment
+  title: 'bliki: Interrogatory LLM'
+  author: martinfowler.com
+  url: https://martinfowler.com/bliki/InterrogatoryLLM.html
   source: pinboard
-  saved_at: '2026-05-12T17:17:29Z'
-- type: article
-  icon: "✦"
-  title: An update on recent Claude Code quality reports Anthropic
-  author: anthropic.com
-  url: https://www.anthropic.com/engineering/april-23-postmortem
-  source: pinboard
-  saved_at: '2026-05-12T17:17:22Z'
-- type: tweet
-  icon: "※"
-  title: 'Michael Mignano on X: "It always comes back to network effects" / X'
-  author: x.com
-  url: https://x.com/mignano/status/2053108729504043201
-  source: pinboard
-  saved_at: '2026-05-12T17:12:12Z'
-- type: tweet
-  icon: "※"
-  title: 'tobi lutke on X: "Learning on the Shop floor " / X'
-  author: x.com
-  url: https://x.com/tobi/status/2053121182044451016
-  source: pinboard
-  saved_at: '2026-05-12T17:06:09Z'
-- type: article
-  icon: "✦"
-  title: The Ma of a New Machine – Scott Jenson
-  author: jenson.org
-  url: https://jenson.org/ma/
-  source: pinboard
-  saved_at: '2026-05-12T16:43:55Z'
-- type: article
-  icon: "✦"
-  title: 'The #1 Way to Win as a GTM Exec in the Age of AI: Be a True Product Guru. Know Your Space 10x Better Than Any Customer. | SaaStr'
-  author: saastr.com
-  url: https://www.saastr.com/the-1-way-to-win-as-a-gtm-exec-in-the-age-of-ai-be-a-true-product-guru-know-your-space-10x-better-than-any-customer/
-  source: pinboard
-  saved_at: '2026-05-12T16:43:33Z'
-- type: article
-  icon: "✦"
-  title: 'The Technium: The Emergent Self Loop'
-  author: kk.org
-  url: https://kk.org/thetechnium/the-emergent-self-loop/
-  source: pinboard
-  saved_at: '2026-05-12T16:42:49Z'
+  saved_at: '2026-05-15T13:27:11Z'
 
