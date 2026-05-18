@@ -1,23 +1,16 @@
 ---
-- type: video
-  icon: "▶"
-  title: 'Watch "Collaborative AI Engineering: One Dev, Two Dozen Agents, Zero Alignment — Maggie Appleton, GitHub" on YouTube'
-  author: youtube.com
-  url: https://www.youtube.com/watch?si=x3cX1u4Kl6lLKtKi&v=ClWD8OEYgp8&feature=youtu.be
-  source: pinboard
-  saved_at: '2026-05-15T13:43:50Z'
 - type: article
   icon: "✦"
-  title: From Open Source Software to Open Source Strategy
-  author: p3institute.substack.com
-  url: https://p3institute.substack.com/p/from-open-source-software-to-open?source=queue
+  title: The Decline and Fall of Human Agency – Jeffrey Bilbro
+  author: lawliberty.org
+  url: https://lawliberty.org/forum/the-decline-and-fall-of-human-agency/
   source: pinboard
-  saved_at: '2026-05-15T13:43:08Z'
+  saved_at: '2026-05-18T10:49:03Z'
 - type: article
   icon: "✦"
-  title: 'bliki: Interrogatory LLM'
-  author: martinfowler.com
-  url: https://martinfowler.com/bliki/InterrogatoryLLM.html
+  title: Why Read?
+  author: commonwealmagazine.org
+  url: https://www.commonwealmagazine.org/montas-roosevelt-why-read-literacy-liberal-democracy-ai-douglass
   source: pinboard
-  saved_at: '2026-05-15T13:27:11Z'
+  saved_at: '2026-05-18T10:48:35Z'
 
