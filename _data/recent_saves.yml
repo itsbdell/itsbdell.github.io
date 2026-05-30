@@ -1,9 +1,16 @@
 ---
 - type: article
   icon: "✦"
-  title: Jira IS Turing-Complete
-  author: seriot.ch
-  url: https://seriot.ch/computation/jira.html
+  title: I think Anthropic and OpenAI have found product-market fit
+  author: simonwillison.net
+  url: https://simonwillison.net/2026/May/27/product-market-fit/
   source: pinboard
-  saved_at: '2026-05-25T20:51:56Z'
+  saved_at: '2026-05-30T02:01:47Z'
+- type: article
+  icon: "✦"
+  title: Skill Distillation | Tomasz Tunguz
+  author: tomtunguz.com
+  url: https://tomtunguz.com/the-pi-agent-skill-distillation/
+  source: pinboard
+  saved_at: '2026-05-30T01:34:30Z'
 
