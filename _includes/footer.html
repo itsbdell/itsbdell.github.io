@@ -7,12 +7,12 @@
     {% assign author_size = save.author | size %}
     {% assign ticker_units = ticker_units | plus: title_size | plus: author_size | plus: 10 %}
   {% endfor %}
-  {% assign ticker_duration = ticker_units | divided_by: 2 %}
-  {% if ticker_duration < 32 %}
-    {% assign ticker_duration = 32 %}
+  {% assign ticker_duration = ticker_units | divided_by: 3 %}
+  {% if ticker_duration < 22 %}
+    {% assign ticker_duration = 22 %}
   {% endif %}
-  {% if ticker_duration > 72 %}
-    {% assign ticker_duration = 72 %}
+  {% if ticker_duration > 42 %}
+    {% assign ticker_duration = 42 %}
   {% endif %}
   <section class="ticker-tape" aria-label="Recently saved links">
     <div class="ticker-tape-label">Recently saved</div>
