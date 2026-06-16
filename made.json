@@ -3,7 +3,7 @@ layout: null
 ---
 {
   "version": "1.0",
-  "self": "https://briandell.xyz/apps.json",
+  "self": "https://briandell.xyz/made.json",
   "updated": "{{ site.time | date_to_xmlschema }}",
   "author": {
     "name": "Brian Dell",
@@ -15,5 +15,5 @@ layout: null
       { "platform": "linkedin", "url": "https://www.linkedin.com/in/brianjdell", "handle": "brianjdell" }
     ]
   },
-  "apps": {{ site.data.apps | jsonify }}
+  "items": {{ site.data.apps | jsonify }}
 }

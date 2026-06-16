@@ -4,7 +4,7 @@ title: Software
 permalink: /apps/
 ---
 
-<p>Small things I've built: apps, skills, standards, and experiments. The feed at <a href="/apps.json"><code>/apps.json</code></a> is the source of truth.</p>
+<p>Small things I've built: apps, skills, standards, and experiments. The feed at <a href="/made.json"><code>/made.json</code></a> is the source of truth.</p>
 
 <ul>
 {% for app in site.data.apps %}

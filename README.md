@@ -2,9 +2,9 @@
 
 Personal site at [briandell.xyz](https://briandell.xyz).
 
-## Apps feed
+## made.json feed
 
-The site publishes an [apps.json](https://briandell.xyz/apps.json) feed (the [apps.json](https://github.com/itsbdell/apps-json) decentralized standard — RSS for vibe-coded micro-apps). The feed and the on-site `/apps/` page are both rendered from a single source of truth at `_data/apps.yml` — to add a new entry, append it there with at least `id`, `name`, `description`, `url`, and (where it applies) `vibe_coded: true`, `source`, `forkable`, `tags`, and `targets[]`. Then run a Jekyll build and the public feed plus the `/apps/` page update together. Validate locally with `node /path/to/apps-json/appfeed/bin/appfeed.js validate ./_site/apps.json` (the `@apps-json/cli` package is the same tool once it's published on npm).
+The site publishes a [made.json](https://briandell.xyz/made.json) feed (the [made.json](https://github.com/itsbdell/made-json) open standard for publishing software-shaped artifacts). The feed and the on-site `/apps/` page are both rendered from a single source of truth at `_data/apps.yml` — to add a new entry, append it there with at least `id`, `name`, `kind`, `description`, `url`, and, where it applies, `vibe_coded: true`, `source`, `forkable`, `tags`, and `targets[]`. Then run a Jekyll build and the public feed plus the `/apps/` page update together. Validate locally with the made-json CLI against `./_site/made.json`.
 
 ## Recent saves ticker
 
