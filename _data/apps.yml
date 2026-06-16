@@ -1,25 +1,27 @@
-# Source of truth for /apps.json and the /apps/ page.
+# Source of truth for /made.json and the /apps/ page.
 # Edit this file; both the public feed and the rendered page rebuild from it.
-# Spec: https://github.com/itsbdell/apps-json
+# Spec: https://github.com/itsbdell/made-json
 
-- id: apps-json
-  name: "apps.json"
-  description: "A lightweight, decentralized standard for publishing apps. RSS for vibe-coded micro-apps."
-  url: "https://apps-json.org"
-  tags: [standard, feed, decentralized]
+- id: made-json
+  name: "made.json"
+  kind: standard
+  description: "A tiny open standard for publishing software, skills, tools, prompts, workflows, and agents."
+  url: "https://made-json.org"
+  tags: [standard, feed, open-web]
   vibe_coded: true
   forkable: true
-  source: "https://github.com/itsbdell/apps-json"
+  source: "https://github.com/itsbdell/made-json"
   targets:
     - kind: web
-      url: "https://apps-json.org"
+      url: "https://made-json.org"
       label: "Read the spec"
     - kind: web
-      url: "https://github.com/itsbdell/apps-json"
+      url: "https://github.com/itsbdell/made-json"
       label: "View on GitHub"
 
 - id: verses
   name: "Verses"
+  kind: app
   description: "Turn poems into lock-screen wallpapers. Pick a poem, choose a theme, export a full-resolution PNG."
   url: "https://verses.briandell.xyz/"
   tags: [poetry, wallpaper, ios]
@@ -36,6 +38,7 @@
 
 - id: nthen
   name: "nthen"
+  kind: app
   description: "An iOS capture app that writes fast daily-life logs, photos, capsules, and routines into an Obsidian vault stored in GitHub."
   url: "https://github.com/itsbdell/nthen"
   tags: [ios, claude, obsidian]
@@ -49,6 +52,7 @@
 
 - id: cozy-feeds
   name: "Cozy Feeds"
+  kind: template
   description: "A static feed generator. Aggregate RSS feeds into a simple, self-hosted reading page."
   url: "https://github.com/itsbdell/cozy-feeds"
   tags: [rss, static-site, feeds]

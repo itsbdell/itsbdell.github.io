@@ -26,6 +26,9 @@ highlighter: none
 
 exclude:
   - .jekyll-cache
+  - docs/plans
+  - implementation-notes.md
+  - little-futures-recent-clippings-ticker-handoff.md
   
 compress_html:
   clippings: all
